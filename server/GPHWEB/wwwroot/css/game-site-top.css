@@ -1,0 +1,129 @@
+@charset "utf-8";
+/*
+ * global css
+ * @date:2013-8-20
+ * @author:xiongzhiwei
+ */
+
+
+/* reset */
+html,body,div,span,iframe,h1,h2,h3,h4,h5,p,pre,em,img,strong,b,i,dl,dt,dd,ul,li,fieldset,form,label,legend,table,tbody,tfoot,thead,tr,th,td {margin:0;padding:0;border:0;outline:0;}
+a,input,button {padding:0;margin:0;outline:0;}
+h1,h2,h3,h4,h5 {font-size:100%;}
+body {font:12px "Microsoft Yahei";}
+ul {list-style:none;}
+a {text-decoration:none;}
+a:hover {text-decoration:underline;}
+a,button {cursor:pointer;}
+table {border-collapse:collapse;border-spacing:0;}
+input,select,img {vertical-align:middle;}
+
+/* function */
+.fl {float:left;_display:inline;}
+.fr {float:right;_display:inline;}
+.clear {clear:both;}
+.section {margin:auto;overflow:hidden;height:auto;}
+.block-a {display:block;text-indent:-9999px;cursor:pointer;}
+.cf {zoom:1;}
+.cf:after {clear:both;display:table;content:"";}
+.c {margin-left:auto;margin-right:auto;}
+.ac {text-align:center;}
+.star {font:12px "SimSun";color:#ffa300;margin-right:3px;}
+
+.corner {background:transparent url("../img/corner.png")/*tpa=http://www.pz1g.com/img/corner.png*/ no-repeat;_background-image:url("../img/corner-8.png")/*tpa=http://www.pz1g.com/img/corner-8.png*/;}
+.corner-hot-r {background-position:-40px 0;}
+.corner-hot-g {background-position:-80px 0;}
+.corner-new-o {background-position:-120px -20px;width:23px;height:9px;display:inline-block;}
+.corner-new-g {background-position:-120px 0;width:25px;height:9px;display:inline-block;}
+
+.ico {display:inline-block;width:20px;height:20px;background:transparent url("../img/ico-24.png")/*tpa=http://www.pz1g.com/img/ico-24.png*/;_background-image:url("../img/ico.png")/*tpa=http://www.pz1g.com/img/ico.png*/;_font-size:0;}
+.ico-img {background:transparent url("../img/ico-24.png")/*tpa=http://www.pz1g.com/img/ico-24.png*/ no-repeat;_background-image:url("../img/ico.png")/*tpa=http://www.pz1g.com/img/ico.png*/;}
+.ico-house {background-position:9px -935px;}
+.ico-house:hover {background-position:9px -967px;}
+.ico-star {background-position:9px -331px;}
+.ico-star:hover {background-position:9px -905px;}
+.ico-ring {background-position:9px -993px;}
+.ico-ring:hover {background-position:9px -1026px;}
+
+.btn-s-2 {display:inline-block;text-align:center;overflow:hidden;font-size:12px;vertical-align:middle;background:transparent url("../img/btn-24.png")/*tpa=http://www.pz1g.com/img/btn-24.png*/ no-repeat;_background-image:url("../img/btn.png")/*tpa=http://www.pz1g.com/img/btn.png*/;height:44px;line-height:44px;background-position:0 -246px;color:#4e4e4c;font-size:18px;width:145px;background-position:0 -527px;}
+.btn-s-2:hover {background-position:0 -572px;text-decoration:none;}
+
+/*Top Module*/
+.game-site-top {height:39px;color:#000;z-index:10000;border-bottom:1px solid #D8D8D8;}
+.game-site-top-bg {border-bottom:1px solid #F7F7F7;height:38px;background:#F5F5F5 url("../img/line_3x38.jpg")/*tpa=http://www.pz1g.com/img/line_3x38.jpg*/ repeat-x 0 0;}
+.t-main {height:38px;line-height:38px;width:1000px;overflow:visible;position:relative;color:#000;z-index:99;}
+.t-main a:hover {text-decoration:none;color:#F06834;}
+.t-main a {color:#000;}
+.t-m-f,.t-m-r {position:absolute;top:0;line-height:38px;overflow:hidden;}
+.t-m-f {left:0;}
+.t-m-r {right:0;line-height:22px;margin-top:1px;}
+/*.t-m-r a {float:right;}*/
+
+.t-left-btn {height:38px;display:inline-block;_width:auto;}
+.t-left-btn a {display:block;height:38px;_display:inline-block;}
+.t-left-btn-1 a {padding-left:23px;}
+.t-left-btn-2 a,.t-left-btn-3 a {padding:0 4px 0 18px;}
+.t-left-btn:hover {background:#E7E7E7;}
+.t-left-btn-1 {left:0;padding-left:20px;}
+.t-left-btn-2 {left:150px;padding-left:20px;}
+.t-left-btn-3 {left:228px;padding-left:20px;}
+#sethome {transition:transform .4s ease-out;}
+.t-left-btn .t-ico:hover {color:#F06834;background-color:#E7E7E7;}
+
+
+
+.tuiguang-small {left:256px;top:0;position:absolute;width:360px;height:38px;overflow:hidden;}
+.tuiguang-small img {vertical-align:top;width:360px;height:38px;}
+.tuiguang-large {left:0;top:0;position:absolute;z-index:90;display:none;width:1000px;height:188px;}
+.tuiguang-large img {width:1000px;height:188px;vertical-align:top;}
+
+.t-btn {cursor:pointer;margin-left:3px;}
+.t-moregames {width:55px;position:absolute;right:0;top:0;height:38px;line-height:38px;text-align:right;z-index:91;padding-right:15px;}
+.t-moregames-focus {z-index:9999;}
+.t-moregames .ico-img {display:block;position:absolute;top:14px;right:3px;width:10px;height:10px;background-position:-4px -1194px;-webkit-transition:.3s ease-in;-moz-transition:.3s ease-in;-o-transition:.3s ease-in;transition:.3s ease-in;}
+.t-moregames-focus .ico-img {-webkit-transform:rotate(180deg);-moz-transform:rotate(180deg);-ms-transform:rotate(180deg);-o-transform:rotate(180deg);transform:rotate(180deg);}
+.ie6 .t-moregames-focus .ico-img, .ie7 .t-moregames-focus .ico-img, .ie8 .t-moregames-focus .ico-img, .ie9 .t-moregames-focus .ico-img {background-position:-5px -1268px;}
+
+.t-log {width:94px;height:38px;line-height:38px;position:absolute;right:140px;top:0;z-index:91;}
+.t-login,.t-reg {height:38px;line-height:38px;text-align:center;display:inline-block;}
+.t-login {width:42px;padding-left:8px;background-position:-2px -1054px;}
+.t-login:hover {background-position:-2px -1087px;color:#F06834;}
+.t-reg {width:36px;}
+.t-loged {display:none;height:38px;line-height:38px;position:absolute;right:140px;top:0;z-index:91;}
+.t-loged a {float:left;}
+.t-mails {display:inline-block;position:relative;background-position:26px -1115px;width:50px;margin-left:10px;}
+.t-loged .t-mails-on {background-position:26px -1148px;}
+.t-mails span {position:absolute;left:39px;top:6px;font-size:8px;width:14px;height:13px;line-height:11px;background-position:-4px -1224px;text-align:center;color:#fff;}
+.t-main .t-loged-vip {background-position:-208px -40px;padding-left:35px;width:10px;height:38px;color:#FFEF1E;font-size:10px;margin-left:2px;}
+.t-main .t-loged-vip-gray {background-position:-368px -42px;width:2px;}
+.t-main .t-loged-vip:hover {color:#FFEF1E;}
+.t-log-out {margin-left:8px;}
+
+.js-top-menu {position:absolute;right:75px;top:0;height:38px;z-index:91;text-align:right;}
+
+.t-menu-hd {width:62px;height:38px;overflow:hidden;}
+.t-menu-hd a {width:45px;height:38px;line-height:38px;display:block;text-align:center;padding-right:5px;background:url("../img/ico-24.png")/*tpa=http://www.pz1g.com/img/ico-24.png*/ no-repeat 34px -1179px;margin-right:10px;}
+.t-menu-bd {width:90px;height:auto;overflow:hidden;display:none;border:1px solid #d9d9d9;background-color:#fff;right:45px;top:37px;z-index:90;}
+.t-menu-bd a {width:60px;height:38px;line-height:38px;display:block;text-align:left;padding-left:30px;}
+.t-menu-bd #bookmark {border-top:1px solid #d9d9d9;border-bottom:1px solid #d9d9d9;}
+
+.t-left-btn .t-ico:hover, .t-reg:hover, .t-login:hover {background-color:#fff;color:#f06834;}
+.t-left-btn:hover, .t-log:hover, .t-moregames:hover, .t-menu-focus a {background-color:#fff;}
+
+/* popup game */
+.pop-th {position:relative;z-index:1000;width:1000px;}
+.pop-g-box {background:#fff;padding:4px;width:391px;position:absolute;top:-1px;z-index:9999;right:0;display:none;}
+.pop-g {border:1px solid #d6d6d6;border-right:0;background:#FFF;margin:0 -1px 0 0;}
+.pop-g h2 {font:bold 12px/27px "宋体";text-indent:20px;color:#0399ee;border-bottom:1px solid #d6d6d6;height:30px;line-height:30px;}
+.pop-g a.lnk , .pop-g .pop-g-cate {border-bottom:1px solid #E5E5E5;color:#464646;float:left;height:29px;line-height:29px;padding:0 10px;text-decoration:none;width:109px;margin:0;overflow:hidden;text-align:center;}
+.pop-g .pop-g-cate {color:#A0A0A0;background:#FDFDFD;}
+.pop-g a:hover {background:#EDF8FC;}
+.pop-g-url {width:129px;height:300px;overflow:hidden;float:left;border-right:1px solid #E5E5E5;}
+.pop-g-url span {line-height:29px;}
+.pop-g a.lnk {position:relative;}
+.pop-g .lnk span {position:absolute;right:3px;top:10px;display:block;}
+.pop-show {display:block;}
+
+.r-dialog-panel, .r-dialog-panel a {color:#3c3c3c;}.zt {
+	font-size: 10px;
+}

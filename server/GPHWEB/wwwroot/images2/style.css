@@ -1,0 +1,818 @@
+* {
+	margin: 0px; padding: 0px;
+}
+html {
+	background: none;
+}
+body {
+	color: rgb(227, 229, 228);
+	font-family: "Î¢ÈíÑÅºÚ";
+	font-size: 12px;
+	background-image: url("bg.jpg")/*tpa=http://www.ls12530.com/images2/bg.jpg*/;
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+ul {
+	list-style: none;
+}
+li {
+	list-style: none;
+}
+img {
+	border: currentColor; border-image: none;
+}
+a {
+	color: rgb(227, 229, 228); text-decoration: none;
+}
+a:hover {
+	color: rgb(230, 148, 38); text-decoration: underline;
+}
+.clear {
+	clear: both;
+}
+div {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none;
+}
+ul {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none;
+}
+ol {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none;
+}
+li {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none;
+}
+dl {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none;
+}
+dd {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none;
+}
+form {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none;
+}
+p {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none;
+}
+h1 {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none;
+}
+h2 {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none;
+}
+h3 {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none;
+}
+#kuangGroup {
+	background: url("bg2.jpg")/*tpa=http://www.ls12530.com/images2/bg2.jpg*/ no-repeat bottom; width: 100%;
+}
+#layout {
+	background: url("bg3.jpg")/*tpa=http://www.ls12530.com/images2/bg3.jpg*/ no-repeat;
+	width: 1000px;
+	height: 1410px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+#content_con {
+	background: url("main_box_../images2/bg.jpg")/*tpa=http://www.ls12530.com/images2/main_box_../images2/bg.jpg*/; margin: 0px auto; width: 1000px;
+}
+.baidu_49you {
+	top: 467px; right: 0px; color: rgb(255, 255, 255); position: absolute;
+}
+.baidu_49you2 {
+	top: 427px; right: 0px; color: rgb(255, 255, 255); position: absolute;
+}
+.baidu {
+	margin: auto; height: 40px; color: rgb(255, 51, 0); line-height: 40px; clear: both; border-bottom-color: rgb(205, 198, 180); border-bottom-width: 1px; border-bottom-style: dashed;
+}
+#top {
+	margin: 0px auto; width: 1000px; height: 474px; overflow: hidden; position: relative;
+}
+#top2 {
+	margin: 0px auto; width: 1000px; height: 457px; overflow: hidden; position: relative;
+}
+#main_con {
+	background: url("neiye_../images2/bg2.jpg")/*tpa=http://www.ls12530.com/images2/neiye_../images2/bg2.jpg*/ no-repeat; margin: 0px auto; width: 1000px;
+}
+#main_con_cox {
+	margin: 0px auto; width: 1000px;
+}
+#main_box {
+	margin: 0px auto; width: 1000px;
+}
+#con_left {
+	width: 255px; float: left;
+}
+#con_right {
+	width: 730px; float: right;
+}
+#con_left2 {
+	width: 255px; overflow: hidden; float: left;
+}
+#con_right2 {
+	width: 745px; overflow: hidden; float: right;
+}
+#nav {
+	margin: 0px auto; width: 1000px;
+}
+#nav ul {
+	padding-top: 29px;
+	font-family: "Î¢ÈíÑÅºÚ";
+	font-size: 12pt;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+.nav_1 {
+	float: right;
+	margin-right: 170px;
+}
+.nav_2 {
+	float: right;
+}
+#nav ul li {
+	float: left;
+}
+#nav ul li a {
+	margin-right: 40px;
+	float: left;
+	display: inline;
+	text-decoration: none;
+}
+#nav ul li a:hover {
+	color: #FF9900;
+}
+#logo a {
+	left: 370px; top: 0px; width: 260px; height: 160px; text-indent: -1000px; position: absolute;
+}
+#top_banner {
+	width: 693px; height: 418px; float: left;
+}
+#top_flash {
+	left: 693px; width: 307px; height: 418px; position: absolute;
+}
+#play {
+	width: 255px; height: 103px;
+}
+#left_2 {
+	background: rgb(26, 31, 35); width: 255px; height: 60px; margin-top: 31px;
+}
+#left_2_1 {
+	background: rgb(26, 31, 35);
+	width: 255px;
+	height: 60px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+#client a {
+	background: url("img.gif")/*tpa=http://www.ls12530.com/images2/img.gif*/ no-repeat; width: 110px; height: 60px;
+}
+#pay a {
+	background: url("img.gif")/*tpa=http://www.ls12530.com/images2/img.gif*/ no-repeat; width: 110px; height: 60px;
+}
+#client a {
+	background-position: -287px top; margin-left: 12px; float: left;
+}
+#client a:hover {
+	background-position: -287px -63px;
+}
+#pay a {
+	background-position: -411px top; margin-right: 12px; float: right;
+}
+#pay a:hover {
+	background-position: -411px -63px;
+}
+#login_con {
+	background: rgb(26, 31, 35); width: 255px; height: 190px; overflow: hidden;
+}
+.login ul {
+	padding: 15px;
+}
+.login_c1 {
+	height: 26px; line-height: 26px; margin-bottom: 7px; _margin-bottom: 6px;
+}
+.login_c1 span {
+	float: left;
+}
+.login_c1 .inputtext {
+	background: rgb(171, 171, 171); border: currentColor; border-image: none; width: 170px; height: 26px; color: rgb(255, 255, 255); line-height: 26px; float: left;
+}
+.denglu {
+	top: 5px;
+	width: 221px;
+	height: 41px;
+	position: relative;
+}
+.login ul p {
+	width: 100%; height: 23px; text-align: center; line-height: 23px; margin-top: 10px;
+}
+.login ul p a {
+	color: rgb(255, 153, 0); font-size: 15px; font-weight: bold;
+}
+.login_c3 {
+	left: 35px; width: 220px; height: 23px; line-height: 23px; position: relative;
+}
+.login_c3 .gou {
+	top: 5px; position: absolute;
+}
+.login_c3 .zt {
+	padding: 4px 5px 0px 20px;
+}
+.login_c3 .code {
+	padding: 4px 0px 0px 10px;
+}
+.login_c4 {
+	height: 100px; overflow: hidden;
+}
+.login_c4 ul li {
+	line-height: 22px;
+}
+.login_c5 ul {
+	padding: 0px; margin-left: 22px;
+}
+.login_c5 ul li {
+	margin-bottom: 10px; float: left;
+}
+.login_c5 ul li a {
+	background: url("img.gif")/*tpa=http://www.ls12530.com/images2/img.gif*/ no-repeat -411px -127px; width: 94px; height: 30px; text-align: center; color: rgb(255, 255, 255); line-height: 30px; margin-right: 22px; float: left;
+}
+.login_c5 ul li a:hover {
+	background-position: -411px -159px;
+}
+.small_pic {
+	background: rgb(28, 33, 38); width: 255px;
+}
+.small_pic ul {
+	padding: 0px 12px 1px;
+}
+.small_pic ul .a1 a {
+	width: 234px; height: 79px; overflow: hidden; margin-bottom: 7px; display: block;
+}
+.small_pic ul .a2 a {
+	width: 234px; height: 79px; overflow: hidden; margin-bottom: 7px; display: block;
+}
+.small_pic ul .a3 a {
+	width: 234px; height: 79px; overflow: hidden; margin-bottom: 7px; display: block;
+}
+.small_pic ul .a4 a {
+	width: 234px; height: 79px; overflow: hidden; margin-bottom: 7px; display: block;
+}
+#ser_list_con {
+	background: rgb(30, 35, 39); width: 255px;
+}
+#ser_list_con .list_tit {
+	background: url("img.gif")/*tpa=http://www.ls12530.com/images2/img.gif*/ no-repeat left top; width: 255px; height: 38px;
+}
+#ser_list_con .list_con {
+	width: 255px; overflow: hidden;
+}
+#ser_list_con .list_con ul li {
+	height: 32px; text-align: center; line-height: 32px;
+}
+#ser_list_con .list_con ul li span {
+	color: red; padding-left: 30px;
+}
+#ser_list_con .list_con .L1 {
+	background: url("list_../images2/bg.jpg")/*tpa=http://www.ls12530.com/images2/list_../images2/bg.jpg*/ no-repeat;
+}
+#ser_list_con .list_con .list_more a {
+	background: url("img.gif")/*tpa=http://www.ls12530.com/images2/img.gif*/ no-repeat left -128px; margin: 15px auto; width: 186px; height: 30px; text-align: center; line-height: 30px; display: block;
+}
+#ser_list_con .list_con .list_more a:hover {
+	background-position: -193px -128px;
+}
+.service {
+	background: rgb(37, 42, 48); width: 255px;
+}
+.service_tit {
+	background: url("img.gif")/*tpa=http://www.ls12530.com/images2/img.gif*/ no-repeat left -82px; width: 255px; height: 38px;
+}
+.service_con {
+	width: 255px;
+}
+.service_con ul {
+	padding: 10px 25px;
+}
+.service_con ul li {
+	line-height: 24px;
+}
+.service_con ul .click a {
+	background: url("img.gif")/*tpa=http://www.ls12530.com/images2/img.gif*/ no-repeat left -462px; width: 91px; height: 27px; text-indent: -1000px; margin-top: 10px; display: block;
+}
+.service_con ul .click a:hover {
+	background-position: -98px -462px;
+}
+#toupiao {
+	background: rgb(37, 42, 48); width: 255px; height: 60px;
+}
+.vote {
+	margin: 0px auto; width: 255px; height: 50px; overflow: hidden;
+}
+.vote p {
+	margin-left: 10px;
+}
+.vote a {
+	display: block;
+}
+.vote p img {
+	vertical-align: top;
+}
+#introduce {
+	background: rgb(37, 42, 48); width: 255px; overflow: hidden;
+}
+.introduce_tit {
+	background: url("img.gif")/*tpa=http://www.ls12530.com/images2/img.gif*/ no-repeat left -41px; width: 255px; height: 38px;
+}
+.introduce_con {
+	padding: 10px 15px; width: 225px; line-height: 24px;
+}
+#hot_img {
+	background: rgb(27, 32, 37); padding: 10px; width: 700px; height: 265px; overflow: hidden; margin-top: 10px;
+}
+.newstab {
+	width: 408px; height: 300px; overflow: hidden; margin-top: 10px; float: left;
+}
+#newstab_tit {
+	background: url("img.gif")/*tpa=http://www.ls12530.com/images2/img.gif*/ no-repeat left -206px; width: 408px; height: 38px; float: left;
+}
+#newstab_tit a {
+	width: 51px; height: 18px; margin-top: 8px; margin-right: 18px; float: right;
+}
+.tabmenu {
+	width: 408px; height: 33px; margin-top: 5px; float: left;
+}
+.tabmenu li {
+	width: 72px; height: 31px; text-align: center; line-height: 31px; font-size: 14px; font-weight: bold; margin-left: 10px; float: left;
+}
+.tabmenu .cli {
+	background: url("img.gif")/*tpa=http://www.ls12530.com/images2/img.gif*/ no-repeat -427px -377px; cursor: pointer;
+}
+.tabmenu li a {
+	color: rgb(227, 229, 228);
+}
+.tabmenu .cli a {
+	color: rgb(211, 9, 9);
+}
+#tabcontent {
+	width: 408px;
+	float: left;
+	color: #FF6600;
+	text-align: left;
+	text-indent: 15px;
+	line-height: 150%;
+	font-size: 14px;
+	margin-top: 10px;
+}
+#tabcontent ul {
+	padding: 10px;
+}
+#tabcontent .date {
+	float: right;
+}
+#tabcontent ul li {
+	padding: 3px 0px; line-height: 24px; border-bottom-color: rgb(148, 148, 148); border-bottom-width: 1px; border-bottom-style: dashed; position: relative;
+}
+#tabcontent ul li span {
+	top: 0px; right: 0px; position: absolute;
+}
+#tabcontent .hidden {
+	display: none;
+}
+.tabcontent_news {
+	width: 100%; height: 60px; border-top-color: rgb(83, 90, 100); border-bottom-color: rgb(83, 90, 100); border-top-width: 1px; border-bottom-width: 1px; border-top-style: dashed; border-bottom-style: dashed;
+}
+.tabcontent_news .title {
+	width: 100%; height: 30px; text-align: center; line-height: 30px; overflow: hidden; font-size: 17px; font-weight: bold; float: left; white-space: nowrap; -ms-text-overflow: ellipsis; -o-text-overflow: ellipsis;
+}
+.tabcontent_news .title a {
+	color: rgb(211, 9, 9);
+}
+.tabcontent_news p {
+	height: 20px; text-align: center;
+}
+.tabcontent_news p span {
+	padding-left: 20px;
+}
+.infor {
+	width: 307px; height: 300px; overflow: hidden; margin-top: 10px; float: right;
+}
+.infor_tit {
+	background: url("img.gif")/*tpa=http://www.ls12530.com/images2/img.gif*/ no-repeat left -164px; width: 307px; height: 38px;
+}
+.infor_tit a {
+	width: 51px; height: 18px; margin-top: 8px; margin-right: 9px; float: right;
+}
+.tabmenu3 {
+	width: 307px; height: 56px; overflow: hidden; margin-top: 15px; float: left;
+}
+.tabmenu3 {
+	padding-left: 20px;
+}
+.tabmenu3 li {
+	background: url("img.gif")/*tpa=http://www.ls12530.com/images2/img.gif*/ no-repeat -541px top; width: 61px; height: 46px; text-align: center; overflow: hidden; padding-top: 10px; font-size: 15px; font-weight: bold; margin-right: 5px; float: left;
+}
+.tabmenu3 .cli {
+	background-position: -606px top; cursor: pointer;
+}
+.tabmenu3 li a {
+	color: rgb(255, 255, 255);
+}
+.tabmenu3 .cli a {
+	color: rgb(255, 255, 255);
+}
+#tabcontent3 {
+	width: 307px; height: 206px; float: left;
+}
+#tabcontent3 ul {
+	padding: 8px 15px; float: left;
+}
+#tabcontent3 ul li {
+	background: url("ico_white.jpg")/*tpa=http://www.ls12530.com/images2/ico_white.jpg*/ no-repeat left; width: 82px; height: 23px; line-height: 23px; padding-left: 10px; margin-bottom: 5px; float: left; display: inline;
+}
+#tabcontent3 .hidden {
+	display: none;
+}
+.role {
+	width: 408px; overflow: hidden; margin-top: 5px; float: left;
+}
+.role_tit {
+	background: url("img.gif")/*tpa=http://www.ls12530.com/images2/img.gif*/ no-repeat left -249px; width: 408px; height: 38px;
+}
+.role_con {
+	width: 408px;
+}
+.tabmenu6 {
+	width: 408px; height: 38px; border-bottom-color: rgb(67, 74, 90); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.tabmenu6 ul {
+	padding-top: 7px;
+}
+.tabmenu6 li {
+	width: 72px; height: 31px; text-align: center; line-height: 31px; font-size: 14px; font-weight: bold; margin-left: 10px; float: left;
+}
+.tabmenu6 .cli {
+	background: url("img.gif")/*tpa=http://www.ls12530.com/images2/img.gif*/ no-repeat -427px -377px; cursor: pointer;
+}
+#tabcontent6 ul li {
+	width: 408px; height: 186px;
+}
+#tabcontent6 .hidden {
+	display: none;
+}
+.gonglve {
+	width: 307px; margin-top: 5px; float: right;
+}
+.gonglve_tit {
+	background: url("img.gif")/*tpa=http://www.ls12530.com/images2/img.gif*/ no-repeat left -291px; width: 307px; height: 38px;
+}
+.gonglve_tit a {
+	width: 51px; height: 18px; margin-top: 8px; margin-right: 20px; float: right;
+}
+.gonglve_con ul {
+	padding: 5px 10px;
+}
+.gonglve_con ul li {
+	padding: 3px 0px; line-height: 24px; border-bottom-color: rgb(148, 148, 148); border-bottom-width: 1px; border-bottom-style: dashed; position: relative;
+}
+.gonglve_con ul li span {
+	right: 0px; position: absolute;
+}
+.gonglve_con ul li .date {
+	float: right;
+}
+.media {
+	width: 408px; float: left;
+}
+.tabmenu2 {
+	background: url("img.gif")/*tpa=http://www.ls12530.com/images2/img.gif*/ no-repeat left -377px; width: 408px; height: 38px;
+}
+.tabmenu2 ul {
+	padding-left: 40px;
+}
+.tabmenu2 li {
+	width: 72px; height: 31px; text-align: center; line-height: 31px; font-size: 13px; font-weight: bold; margin-left: 10px; float: left;
+}
+.tabmenu2 .cli {
+	background: url("img.gif")/*tpa=http://www.ls12530.com/images2/img.gif*/ no-repeat -427px -377px; cursor: pointer;
+}
+.tabmenu2 li a {
+	color: rgb(255, 255, 255);
+}
+.tabmenu2 .cli a {
+	color: rgb(211, 9, 9);
+}
+#tabcontent2 ul {
+	padding: 8px 15px;
+}
+#tabcontent2 .date {
+	float: right;
+}
+#tabcontent2 ul li {
+	padding: 3px 0px; line-height: 24px; border-bottom-color: rgb(148, 148, 148); border-bottom-width: 1px; border-bottom-style: dashed;
+}
+#tabcontent2 .hidden {
+	display: none;
+}
+.link2 {
+	width: 730px;
+	float: left;
+}
+.link2_tit {
+	background: url("img2.gif")/*tpa=http://www.ls12530.com/images2/img2.gif*/ no-repeat left -420px; width: 730px; height: 38px;
+}
+.link2_con {
+	width: 730px; height: 300px; overflow: hidden;
+}
+.link2_con a {
+	line-height: 21px;
+	float: left;
+	padding-top: 10px;
+	padding-right: 7px;
+	padding-bottom: 0px;
+	padding-left: 7px;
+}
+.tabmenu4 {
+	width: 307px; height: 38px; border-bottom-color: rgb(67, 74, 90); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.tabmenu4 ul {
+	padding-top: 7px; padding-left: 20px;
+}
+.tabmenu4 li {
+	width: 72px; height: 31px; text-align: center; line-height: 31px; font-size: 14px; font-weight: bold; margin-left: 10px; float: left;
+}
+.tabmenu4 .cli {
+	background: url("img.gif")/*tpa=http://www.ls12530.com/images2/img.gif*/ no-repeat -427px -377px; cursor: pointer;
+}
+#tabcontent4 ul {
+	padding: 10px;
+}
+#tabcontent4 ul li {
+	margin: 0px auto; width: 250px; height: 140px;
+}
+#tabcontent4 .hidden {
+	display: none;
+}
+.link {
+	width: 730px;
+	float: left;
+}
+.link_tit {
+	background: url("img.gif")/*tpa=http://www.ls12530.com/images2/img.gif*/ no-repeat left -420px; width: 730px; height: 38px;
+}
+.link_con {
+	width: 730px; height: 75px; overflow: hidden;
+}
+.link_con a {
+	line-height: 21px;
+	float: left;
+	padding-top: 10px;
+	padding-right: 7px;
+	padding-bottom: 0px;
+	padding-left: 7px;
+}
+#n-right {
+	width: 745px; float: right;
+}
+#n_right_t {
+	width: 713px; height: 42px; color: rgb(255, 255, 255); line-height: 42px; overflow: hidden; padding-left: 32px; float: left;
+}
+#n_right_t strong {
+	font-size: 18px; float: left;
+}
+#n_right_t .weizhi {
+	margin-right: 40px; float: right;
+}
+#n_right_t .weizhi a {
+	padding: 0px 5px; color: rgb(255, 255, 255);
+}
+#n_right_c {
+	padding: 20px; width: 705px; overflow: hidden; float: right; min-height: 956px;
+}
+#n_right_c1 {
+	margin: 20px auto; width: 100%;
+}
+#ser_title {
+	height: 30px; color: rgb(242, 128, 6); line-height: 30px; overflow: hidden; font-size: 20px; border-bottom-color: rgb(205, 198, 180); border-bottom-width: 1px; border-bottom-style: solid;
+}
+#ser_tj {
+	background: url("sprite.gif")/*tpa=http://www.ls12530.com/images2/sprite.gif*/ no-repeat left -214px; margin: 30px auto; width: 428px; height: 50px; text-align: center; color: rgb(255, 255, 255); line-height: 50px; font-size: 20px; font-weight: bold;
+}
+#ser_tj a {
+	color: rgb(255, 255, 255); padding-right: 20px;
+}
+#ser_all {
+	margin-top: 20px;
+}
+.tabmenu5 {
+	margin: 0px auto; height: 30px; color: rgb(242, 128, 6); line-height: 30px; font-size: 20px; border-bottom-color: rgb(205, 198, 180); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.tabmenu5 ul {
+	
+}
+.tabmenu5 li {
+	width: 100px; height: 30px; text-align: center; color: rgb(255, 255, 255); line-height: 30px; font-size: 13px; float: left;
+}
+.tabmenu5 .cli {
+	background: rgb(255, 255, 255); border-width: 1px 1px medium; border-style: solid solid none; border-color: rgb(205, 198, 180) rgb(205, 198, 180) currentColor; border-image: none; cursor: pointer;
+}
+.tabmenu5 .cli a {
+	color: rgb(242, 128, 6);
+}
+#tabcontent5 {
+	
+}
+#tabcontent5 ul {
+	padding: 15px 0px 15px 12px; float: left;
+}
+#tabcontent5 ul li {
+	background: url("sprite.gif")/*tpa=http://www.ls12530.com/images2/sprite.gif*/ no-repeat left -267px; margin: 10px 37px 10px 20px; width: 266px; height: 32px; text-align: center; line-height: 32px; float: left; display: inline;
+}
+#tabcontent5 ul li a {
+	padding-right: 10px;
+}
+#tabcontent5 ul li a:hover {
+	color: rgb(255, 255, 255);
+}
+#tabcontent5 .hidden {
+	display: none;
+}
+#news_con ul li {
+	padding: 3px 0px; line-height: 24px; border-bottom-color: rgb(205, 198, 180); border-bottom-width: 1px; border-bottom-style: dashed;
+}
+#news_con ul li:hover {
+	background: rgb(69, 77, 90);
+}
+#news_con li .date {
+	float: right;
+}
+#news_pages {
+	width: 658px; height: 20px; text-align: center; overflow: hidden; margin-top: 40px; float: left;
+}
+#news_pages_1 {
+	margin: 0px auto; width: 400px; height: 20px;
+}
+#news_pages_1 a {
+	background: rgb(158, 153, 141); width: 45px; height: 20px; text-align: center; color: rgb(255, 255, 255); line-height: 20px; margin-left: 10px; float: left;
+}
+#news_pages_1 span {
+	background: rgb(158, 153, 141); width: 45px; height: 20px; text-align: center; color: rgb(255, 255, 255); line-height: 20px; margin-left: 10px; float: left;
+}
+#news_read_t {
+	width: 100%; height: 66px; text-align: center; border-bottom-color: rgb(205, 198, 180); border-bottom-width: 1px; border-bottom-style: solid; float: left;
+}
+#news_read_t h1 {
+	width: 100%; font-family: "Î¢ÈíÑÅºÚ"; font-size: 20px; font-weight: bold;
+}
+#news_read_t_1 {
+	width: 100%; height: 20px; text-align: center; margin-top: 15px; float: left;
+}
+#news_read_t_1 span {
+	margin-left: 20px;
+}
+#news_read_c {
+	width: 100%; line-height: 25px; font-size: 13px; margin-top: 20px; float: left;
+}
+.next {
+	background: rgb(69, 77, 90); border: 1px solid rgb(126, 136, 148); border-image: none; height: 35px; line-height: 35px; font-size: 13px;
+}
+.next ul {
+	padding-left: 15px;
+}
+.next ul li {
+	width: 280px; height: 35px; overflow: hidden; clear: none; float: left; display: inline;
+}
+.next ul li a {
+	margin-left: 3px; float: none;
+}
+.near {
+	background: rgb(69, 77, 90); padding: 0px; border: 1px solid rgb(126, 136, 148); border-image: none; margin-top: 20px;
+}
+.near .tit {
+	background: rgb(69, 77, 90); height: 33px; line-height: 33px; overflow: hidden; padding-left: 15px; font-size: 13px; font-weight: bold; border-bottom-color: rgb(126, 136, 148); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.near .con {
+	
+}
+.near .con ul {
+	padding: 10px; float: left;
+}
+.near li {
+	width: 280px; overflow: hidden; clear: none; font-size: 13px; float: left;
+}
+.near li a {
+	margin-left: 3px;
+}
+.near em {
+	margin: 0px 3px;
+}
+.xsk_tit {
+	width: 100%; height: 60px; text-align: center; line-height: 60px; font-size: 20px; font-weight: bold; border-bottom-color: rgb(205, 198, 180); border-bottom-width: 1px; border-bottom-style: solid; float: left;
+}
+.xsk_con {
+	margin-top: 10px; float: left;
+}
+.xsk_con_1 {
+	margin: 10px auto;
+}
+.xsk_con_1-1 {
+	width: 560px; height: 27px; margin-bottom: 10px; float: left;
+}
+.xsk_con_1-2 {
+	width: 560px; height: 27px; margin-bottom: 10px; float: left;
+}
+.xsk_con_1-1 .title {
+	width: 160px; height: 27px; text-align: right; line-height: 27px; font-size: 14px; font-weight: bold; margin-right: 10px; float: left;
+}
+.xsk_con_1-2 .title {
+	width: 160px; height: 27px; text-align: right; line-height: 27px; font-size: 14px; font-weight: bold; margin-right: 10px; float: left;
+}
+.xsk_con_1-1 .input {
+	width: 140px; height: 27px; line-height: 27px; margin-right: 10px; float: left;
+}
+.xsk_con_1-2 .input {
+	width: 140px; height: 27px; line-height: 27px; margin-right: 10px; float: left;
+}
+.xsk-input {
+	border: 1px solid rgb(129, 129, 119); border-image: none; width: 136px; height: 22px; line-height: 22px;
+}
+.xsk_con_1-1 .tip {
+	width: 140px; height: 27px; color: rgb(0, 0, 0); line-height: 27px; margin-right: 10px; float: left;
+}
+.xsk-b1 {
+	width: 69px; height: 25px; margin-right: 10px; float: left;
+}
+.xsk-sub {
+	border: currentColor; border-image: none; width: 69px; height: 25px; text-align: center; line-height: 25px; font-size: 13px; font-weight: bold; float: left; background-image: url("tj.jpg")/*tpa=http://www.ls12530.com/images2/tj.jpg*/; background-repeat: no-repeat;
+}
+.xsk-sub:hover {
+	background-repeat: no-repeat;
+}
+.xsk-b2 a {
+	width: 101px; height: 25px; text-align: center; color: rgb(255, 255, 255); line-height: 25px; float: left; background-image: url("mszc.jpg")/*tpa=http://www.ls12530.com/images2/mszc.jpg*/; background-repeat: no-repeat;
+}
+.xsk-b2 a:hover {
+	background-repeat: no-repeat;
+}
+.xsk_con_2 {
+	margin: 10px auto;
+}
+.xsk_con_2_t {
+	width: 100%; height: 30px; line-height: 35px; overflow: hidden; font-size: 15px; font-weight: bold; margin-bottom: 10px; border-bottom-color: rgb(205, 198, 180); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.xsk_con_2_c {
+	width: 100%; line-height: 24px;
+}
+#play {
+	width: 255px; height: 103px; position: relative;
+}
+#play .fplay {
+	left: 0px; top: 0px; width: 255px; height: 103px; position: absolute; z-index: 5;
+}
+#play a#start_btn {
+	left: 0px; top: 0px; width: 255px; height: 103px; position: absolute; z-index: 5;
+}
+#play .fplay {
+	z-index: 5;
+}
+#play #start_btn {
+	z-index: 10; opacity: 0; background-color: rgb(0, 0, 0);
+}
+.at_but {
+	border: 0 none;
+	color: #FFFFFF;
+	cursor: pointer;
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 32px;
+	margin: 0;
+	text-decoration: none;
+	background-color: transparent;
+	background-image: url("denglu.jpg")/*tpa=http://www.ls12530.com/images2/denglu.jpg*/;
+	background-repeat: no-repeat;
+	height: 41px;
+	width: 221px;
+	text-indent: 1000px;
+}
+.at_but u {
+	background-attachment: scroll;
+	background-color: transparent;
+	background-image: url("denglu.jpg")/*tpa=http://www.ls12530.com/images2/denglu.jpg*/;
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	height: 41px;
+	width: 221px;
+}
+}.ft123 {
+	width: 100%;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-left: auto;
+	color: #aaaaaa;
+	text-align: center;
+	vertical-align: top;
+	margin-bottom: 25px;
+}
+.ft123 a {
+	color: #aaaaaa;
+}

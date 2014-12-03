@@ -1,0 +1,1 @@
+﻿﻿<script> alert('兑换失败，您未获得三界争霸奖励资格或已经兑换！');location.href=/UserCenter/;</script>

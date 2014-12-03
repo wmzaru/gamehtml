@@ -1,0 +1,1 @@
+<html><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><script>location.href='login.php.htm'/*tpa=http://www.pz1g.com/login.php*/</script>

@@ -1,0 +1,601 @@
+a:link, a:visited {
+    color: #b6dfec;
+}
+
+a:hover {
+    color: #ffe87e;
+}
+
+a:active {
+    color: #88acb7;
+}
+
+.ui-container {
+    width: 634px;
+height: 446px;
+background: url(../images/bg_43.jpg);
+}
+
+.home {
+    overflow: hidden;
+    background: url(../images/home_bg.jpg) no-repeat;
+}
+
+    .home .ui-home-left, .home .ui-home-right {
+        height: 325px;
+    }
+
+    .home .ui-home-right {
+        /*width: 230px;*/
+    	width:255px;
+    }
+
+.ui-news {
+    height: 135px;
+    padding: 33px 15px 0 10px;
+    position: relative;
+    font-size: 12px;
+}
+
+.home .ui-news ul {
+	height: 100%;
+	line-height: 22px;
+	_line-height: 20px;
+	color: #F00;
+    }
+
+
+.home .ui-news ul li {
+    clear: both;
+}
+.home .ui-news strong{
+    display: none;
+}
+
+.home .ui-news span {
+    float: right;
+    color: #B6DFEC;
+}
+
+.home .ui-news a:link,
+.home .ui-news a:visited {
+    color: #ed3701;
+}
+.home .ui-news li a:link,
+.home .ui-news li a:visited {
+    float: left;
+    color: #ededcd;
+    -moz-transition: color 0.5s linear;
+    -webkit-transition: color 0.5s linear;
+    transition: color 0.5s linear;
+}
+
+.home .ui-news li a:hover {
+	color: #F00;
+	text-decoration: none;
+}
+
+a.news-more {
+    width: 60px;
+    height: 20px;
+    top: 4px;
+    right: -4px;
+    font-size: 14px;
+}
+
+
+.home .ui-login, .home .ui-register {
+    width: 370px; 
+    height: 160px;
+    
+}
+
+.home .ui-login {
+    
+}
+
+.home .ui-register {
+   
+}
+
+.form_login {
+    margin: 38px 0 0 5px;
+}
+
+.ui-login input, .ui-register input {
+    border: 0;
+    width: 142px;
+    /*height: 20px;*/
+    outline: 0;
+    color: #fff;
+    text-indent: 2px;
+    text-indent: 1px;
+    background: transparent;
+    margin: 3px 0 10px 2px;
+}
+
+.ui-register input {
+    margin: 3px 0 5px 5px;
+    _margin: 3px 0 5px 5px;
+}
+
+input.verifycode {
+    
+    width: 68px;
+    text-indent: 0;
+}
+
+img.verifycode {
+    margin: 3px; 
+   *margin-top: 4px;
+    margin-left: 15px;
+}
+
+a.change-verifycode {
+    display: none;
+}
+
+.row {
+    padding-left: 85px;
+    *padding-left: 78px;
+    background-position: 16px -92px;
+}
+
+    /*hide verify code label*/
+    .row label {
+        display: none;
+    }
+
+
+
+.l_username, .r_username {
+    background-position: 17px 3px;
+}
+
+.l_password, .r_password {
+    background-position: 16px -30px;
+}
+
+.ui-login .row {
+    background: url(../images/loginFromBg.jpg) no-repeat;
+    padding: 10px 0 0 75px;
+    _padding: 10px 0 0 70px;
+
+    height: 28px;
+    overflow: hidden;
+    background-position: 9px -59px;
+}
+
+    /*hide verify code label*/
+.ui-login .row label {
+        display: none;
+    }
+
+.ui-login .l_serverlist,.ui-login  .r_serverlist {
+    background-position: 9px 0;
+	background-position: 9px -63px;
+    padding-top: 0;
+}
+.ui-login .l_username,.ui-login  .r_username {
+    background-position: 9px -28px;
+	background-position: 9px 10px;
+    height: 28px;
+}
+
+.ui-login .l_password, .ui-login .r_password {
+    background-position: 9px -63px;
+	background-position: 9px -28px;
+    height: 28px;
+}
+
+.r_repassword {
+    background-position: 16px -63px;
+}
+
+.r_repassword input  {
+    _margin-top: 0;
+}
+
+img.verifycode {
+    height: 22px;
+    vertical-align: middle;
+    margin-left: 20px;
+}
+
+.ui-login div.btns {
+    margin-top: 10px;
+}
+
+/*a.fake_remember_me_btn {
+
+    width: 80px;
+    height: 25px;
+    left: 13px;
+    bottom: 5px;
+    z-index: 9;
+    background: url(../images/rememberMeCheck.jpg) no-repeat;
+}*/
+
+/* damn you ie6*/
+a.fake_on {
+    background-position: 0 -25px;
+}
+
+span.fake_remember_me_label, a.retrieve_btn {
+    font-size: 12px;
+    color: #fff;
+    width: 70px;
+    height: 20px;
+    text-indent: -100px;
+    overflow: hidden;
+    background: url(../images/findPassword.jpg) no-repeat;
+    display: block;
+}
+
+span.fake_remember_me_label {
+    display: none;
+}
+
+a.retrieve_btn {
+    bottom: 8px;
+    left: 128px;
+}
+
+
+
+.loginBtn, .btnRegister {
+    background-repeat: no-repeat;
+    width: 141px;
+    height: 55px;
+    top: 40px;
+    right: 1px;
+    cursor: pointer;
+}
+
+.loginBtn {
+    background: url(../images/loginBtn.jpg) no-repeat;
+}
+
+.btnRegister {
+     background: url(../images/regisiterBtn.jpg) no-repeat;
+}
+
+.btnRegister {
+   top: 3px;
+   right: 6px;
+}
+
+.form_reg {
+    width: 370px;
+    height: 90px;
+    margin: 38px 0 0 5px;
+}
+.ui-login a.link-to-register,.ui-register a.link-to-login  {
+    font-size: 12px;
+    left: 228px;
+    top: 95px;
+    color: #f1d7aa;
+    font-size: 16px;
+    text-align: center;
+    width: 140px;
+    height: 30px;
+    line-height: 30px;
+    font-weight: 700;
+    display: block;
+    overflow: hidden;
+    background: url(../images/btnRegister.jpg) no-repeat;
+}
+
+.ui-register a.link-to-login {
+    top: 95px;
+    left: 228px;
+}
+
+.ui-register .row {
+    background: url(../images/registerBg.jpg) no-repeat;
+    height: 28px;
+    background-position:  9px -59px;
+    padding-left: 67px;
+}
+
+.ui-register .l_username, .ui-register .r_username {
+    background-position: 9px 0;
+    padding-top: 0;
+}
+
+.ui-register .l_password, .ui-register .r_password {
+    background-position: 9px -27px;
+    height: 28px;
+}
+
+.home .ui-home-left  {
+    width: 370px;
+}
+
+.home .ui-home-right {
+    /*width: 230px;*/
+	width:255px;
+}
+
+.ui-slider {
+    width: 220px;
+    height: 131px;
+    margin: 5px 0 0 7px;
+}
+
+.newbie-card {
+    width: 224px;
+    height: 63px;
+    margin: 6px 0 0 4px;
+    background: url(../images/newCard.jpg) no-repeat;
+}
+
+
+.ui-game-tags {
+   width: 203px;
+   height: 86px;
+   margin: 10px 0 0 1px;
+}
+
+
+    .ui-game-tags ul {
+        
+       width: 100%;
+       height: 100%;
+       margin: 35px 0 0 20px;
+       _margin: 25px 0 0 20px;
+       font-size: 12px;
+    }
+
+        .ui-game-tags ul li {
+            float: left;
+            width: 95px;
+            height: 20px;
+            line-height: 20px;
+            overflow: hidden;
+        }
+         .ui-game-tags a:link,  .ui-game-tags a:visited { color: #ededcd;}
+         .ui-game-tags a:hover { text-decoration: underline; color: #f4c471;}
+/* servers */
+.servers {
+    height: 330px;
+    background: url(../images/serverBg.jpg) no-repeat;
+    font-size: 12px;
+}
+
+.ui-toolbar {
+    height: 40px;
+    line-height: 40px;
+    color: #ded6a0;
+    padding: 2px 0 0 12px;
+    font-weight: 100;
+    font-size: 14px;
+}
+
+.server_enter {
+    top: 2px;
+    right: 6px;
+    width: 250px;
+}
+
+    .server_enter input {
+        border: 0;
+        width: 155px;
+        height: 28px;
+        line-height: 28px;
+        text-indent: 7px;
+        color: #ffffff;
+        outline: 0;
+        font-weight: 700;
+        margin: 5px 0 0 0;
+        background: url(../images/joinServerBg.jpg) no-repeat;
+    }
+
+        .server_enter input:active {
+            outline: 0;
+        }
+
+.enter-server {
+    width: 87px;
+    height: 28px;
+   
+    display: inline-block;
+    _display: inline;
+    top: 6px;
+    _top: 4px;
+    right: 5px;
+    *right: 0px;
+    background: url(../images/enterServerBtn.jpg) right top no-repeat;
+}
+
+a.change-account {
+    color: #da1515;
+    text-decoration: none;
+}
+
+.ui-server-recent-servers {
+    left: 140px;
+    top: 0;
+}
+
+    .ui-server-recent-servers ul {
+        overflow: auto;
+        _zoom: 1;
+        *margin: 10px 0 0 0;
+        _margin: 10px 0 0 10px;
+    }
+
+        .ui-server-recent-servers ul li {
+            float: left;
+            margin: 0 10px 0 0;
+        }
+
+            .ui-server-recent-servers ul li a, .ui-servers-holder ul {
+                _margin: 0;
+            }
+
+                .ui-server-recent-servers ul li a, .ui-servers-holder ul li a {
+                    display: block;
+                    width: 127px;
+                    height: 31px;
+                    line-height: 31px;
+                    text-align: center;
+                    color: #ffc600;
+                    font-size: 14px;
+                    font-weight: 700;
+                    display: block;
+                    background: url(../images/recentserverListBtnbg.jpg) no-repeat;
+                }
+                .ui-server-recent-servers ul li a:hover, .ui-servers-holder ul li a:hover {
+                    color: #ffe400;
+                }
+
+                .ui-servers-holder ul li a {
+                    width: 165px;
+                    height: 48px;
+                    line-height: 48px;
+                    font-weight: 100;
+                    color: #e7e7a2;
+                    background: url(../images/serverListBtnbg.jpg) no-repeat;
+                    -moz-transition: color 0.3s linear;
+                    -webkit-transition: color 0.3s linear
+                    transition: color 0.3s linear
+                }
+
+                .ui-servers-holder ul li a:hover {
+                    color: #f4c471;
+                }
+                  
+
+.ui-server-holder {
+    margin-top: 95px;
+}
+
+.ui-server-list-tabs {
+    left: 15px;
+    top: 0;
+    margin: 0;
+    width: 375px;
+    height: 16px;
+    overflow: hidden;
+     font-size: 14px;
+}
+    
+    .ui-server-list-tabs li {
+        float: left;
+        margin-left: 20px;
+        font-weight: 700;
+        margin: 0;
+        width: 70px;
+    }
+
+.servers .ui-server-list-tabs li a {
+    color: #00d214;
+    width: 57px;
+    height: 16px;
+    display: block;
+     margin: 0 20px 0 20px;
+
+}
+
+.ui-server-list-tabs li a.active {
+    color: #00d214;
+    width: 34px;
+}
+
+
+.servers .ui-server-list-tabs li a:hover {
+    text-decoration: underline;
+}
+
+.ui-server-list-tabs li a.group1 {
+    background-position: -34px 0;
+}
+
+.ui-servers-holder {
+    padding: 15px 0 0 20px;
+}
+
+    .ui-servers-holder ul {
+        height: 153px;
+        width: 565px;
+        overflow: auto;
+        _overflow-x: hidden;
+        *margin: 0;
+        *padding-top: 10px;
+    }
+
+        .ui-servers-holder ul li {
+            float: left;
+            margin: 0 5px 5px 5px;
+            _margin: 0 5px 5px 0;
+        }
+
+
+/* tool tip customize*/
+div.ytiph {
+    background-color: #212829;
+    border: 1px solid #9d9d9b;
+    color: #fff;
+}
+
+    div.ytiph span.yarrow_a {
+        border-top: 5px solid #212829;
+    }
+
+    div.ytiph span.yarrow_b {
+        border-top: 7px solid #9d9d9b;
+    }
+div.pices {margin-top:5px;}
+
+.ui-login a.link-to-register {margin-top:15px;}
+
+
+
+.select * {
+ padding: 0;
+}
+.select {
+ border:1px solid #cccccc;
+ float: left;
+ width:143px;
+ display: inline;
+ margin-top:3px;
+ }
+.select div {
+ border:1px solid #f9f9f9;
+ float: left;
+}
+/* 子选择器，在FF等非IE浏览器中识别 */
+.select>div {
+ width:143px;
+ height: 17px;
+ overflow:hidden;
+ }
+ 
+/* 通配选择符，只在IE浏览器中识别 */
+* html .select div select {
+ display:block;
+ float: left;
+ margin: -3px;
+}
+.select div>select {
+ display:block;
+ width:146px;
+ float:none;
+ margin: -3px;
+ padding: 0px;
+}
+.select:hover {
+ border:1px solid #666666; //鼠标移上的效果 
+}
+.select select>option {
+ text-indent: 2px; //option在FF等非IE浏览器缩进2px
+ width:146px;
+ word-break:break-all;
+}
+
+* html .select div select option {
+ width:146px;
+ word-break:break-all;
+}

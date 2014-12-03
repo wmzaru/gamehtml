@@ -1,0 +1,22 @@
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,p,pre,form,fieldset,input,textarea,blockquote,select {padding:0;margin:0;}
+ol,ul {list-style:none;}
+li {vertical-align:bottom;}
+body {background:url("../images/reg/ingame-bg.jpg")/*tpa=http://www.baidu9900.com/images/reg/ingame-bg.jpg*/ top center no-repeat;font-family:微软雅黑;color:#fff;font-size:14px;}
+a {outline:none;}
+.main {width:1000px;height:800px;margin:0 auto;position:relative;background:url("../images/reg/ingame-main.jpg")/*tpa=http://www.baidu9900.com/images/reg/ingame-main.jpg*/ no-repeat;}
+.logo {position:absolute;width:300px;height:135px;left:75px;top:20px;}
+.logo a {display:block;height:100%;text-indent:-9999em;}
+.form-1, .form-2,.form-3 {position:absolute;width:296px;left:350px;top:103px;line-height:30px;}
+.form-2 {left:320px;top:140px;}
+.form-3{left:293px;top:178px;}
+
+.username, .password {float:right;width:240px;height:25px;line-height:25px;padding:0 3px;border:1px solid #4A4E51;background:#ADB1B4;font-size:14px;}
+.log-btn, .reg-btn {position:absolute;width:160px;height:41px;top:240px;}
+.log-btn {left:237px;cursor:pointer;}
+.reg-btn {left:417px;cursor:pointer;}
+.btn-1, .btn-2, .btn-3, .btn-4 {position:absolute;width:160px;height:47px;}
+.btn-1 {left:164px;top:371px;}
+.btn-2 {left:353px;top:371px;}
+.btn-3 {left:129px;top:446px;}
+.btn-4 {left:318px;top:446px;}

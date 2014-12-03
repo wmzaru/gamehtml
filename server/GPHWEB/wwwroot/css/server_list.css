@@ -1,0 +1,83 @@
+@charset "utf-8";
+html,body,div,span,iframe,h1,h2,h3,h4,h5,p,pre,em,img,strong,b,i,dl,dt,dd,ul,li,fieldset,form,label,legend,table,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0}a,input,button{padding:0;margin:0;outline:0}h1,h2,h3,h4,h5{font-size:100%}body{font:12px "Microsoft Yahei"}ul{list-style:none}a{text-decoration:none}a:hover{text-decoration:underline}a,button{cursor:pointer}table{border-collapse:collapse;border-spacing:0}input,select,img{vertical-align:middle}.fl{float:left;_display:inline}.fr{float:right;_display:inline}
+
+body {color:#E0D9D0;}
+.container{background:url("../images/list/s-bg.jpg")/*tpa=http://www.baidu9900.com/images/list/s-bg.jpg*/ no-repeat top center;margin:auto;}
+
+.wrap{width:1000px;height:960px;overflow:hidden;margin:auto;}
+.wrap-left{width:376px;height:960px;float:left;overflow:hidden;position:relative;}
+.wrap-right{width:624px;height:960px;float:right;overflow:hidden;}
+.footer {color:#8F7650;width:1000px;height:100px;margin:40px auto 0;text-align:center;line-height:26px;}
+.footer a {color:#8F7650;}
+
+ /*头部导航*/
+.header {width:624px;height:86px;position:relative;margin:auto;}
+.header a {position:absolute;top:25px;width:152px;height:56px;text-indent:-9999em;}
+.btn1 {left:1px;}
+.btn2 {left:158px;}
+.btn3 {left:315px;}
+.btn4 {left:471px;}
+
+.logo {width:315px;height:133px;position:absolute;left:39px;top:42px;}
+.logo a {width:315px;height:133px;display:block;}
+
+/*登录*/
+
+ /*列表*/
+.server-list {width:624px;overflow:hidden;margin:auto;}
+.server-list-mygame {}
+.server-list-mygame .top {height:66px;}
+.server-list-mygame .con {height:66px;width:424px;padding:11px 0 0 200px;}
+.server-list-tj .top {height:53px;}
+.server-list-tj .con {height:67px;width:424px;padding:8px 0 0 200px;}
+.server-list-all .top {}
+.server-list-all .con {min-height:552px;margin-top:10px;}
+.server-list  .top{}
+.server-list .con li {width:177px;height:41px;line-height:41px;padding:0 10px;margin:7px 5px;float:left;overflow:hidden;background:url("../images/list/server-dot.jpg")/*tpa=http://www.baidu9900.com/images/list/server-dot.jpg*/ no-repeat center 0;text-align:center;_display:inline;}
+.server-list li.mygame {background:url("../images/list/server-dot-mygame.jpg")/*tpa=http://www.baidu9900.com/images/list/server-dot-mygame.jpg*/ no-repeat;}
+.server-list li span {float:right;color:#FF950B;cursor:pointer;}
+.server-list li a {color:#E0D9D0;height:41px;display:block;}
+.server-list li a:hover, .server-list li a:hover span {color:#e19f00;text-decoration:none;}
+.wrap-right .fot {height:0;}
+
+.nav {width:596px;height:28px;margin:0 14px;line-height:28px;}
+.nav .quick-enter-code {float:right;width:210px;line-height:22px;}
+.nav ul {overflow:hidden;width:385px;float:left;}
+.nav li {float:left;width:89px;height:28px;display:inline;line-height:28px;overflow:hidden;background:url("../images/list/s-li-out.jpg")/*tpa=http://www.baidu9900.com/images/list/s-li-out.jpg*/ no-repeat;color:#5F0700;text-align:center;cursor:pointer;margin-right:7px;}
+.nav li.on {background:url("../images/list/s-li-on.jpg")/*tpa=http://www.baidu9900.com/images/list/s-li-on.jpg*/ no-repeat;color:#fff;}
+
+.quick-enter-input {background:#fff;border:1px solid #4C1802;color:#000;width:40px;text-align:center;margin:0 5px;height:18px;}
+.quick-enter-click {width:70px;height:22px;background:url("../images/list/s-ingame.jpg")/*tpa=http://www.baidu9900.com/images/list/s-ingame.jpg*/ no-repeat;border:0;cursor:pointer;display:inline-block;text-indent:-9999px;margin-left:5px;}
+
+body{background:#1B1311;color:#B8BCB7;}
+a {color:#B8BCB7;text-decoration:none;}
+a:hover {color:#fff;text-decoration:none;}
+.block-a{display:block;height:100%;text-indent:-9999em;}
+
+/*右侧登录*/
+.right-btn {position:fixed;left:0px;top:80px;_position:absolute;_top:expression(offsetParent.scrollTop+80);}
+.right-open {width:233px;height:500px;background:url("../images/list/left-bar.png")/*tpa=http://www.baidu9900.com/images/list/left-bar.png*/ no-repeat;_background:url("../images/list/left-bar.png")/*tpa=http://www.baidu9900.com/images/list/left-bar.png*/ no-repeat;position:fixed;left:-223px;top:80px;_position:absolute;_top:expression(offsetParent.scrollTop);}
+.right-open .logo {position:absolute;left:0;top:0;width:233px;height:95px;display:block;}
+.right-open .ingame {position:absolute;left:28px;top:95px;width:173px;height:87px;display:block;}
+.right-open .wd {position:absolute;left:28px;top:191px;width:173px;height:38px;display:block;}
+.right-open .wd:hover {background:url("../images/list/wd-hover.jpg")/*tpa=http://www.baidu9900.com/images/list/wd-hover.jpg*/ 0 0 no-repeat;}
+.right-open .reg {position:absolute;left:28px;top:241px;width:173px;height:38px;display:block;}
+.right-open .reg:hover {background:url("../images/list/wd-hover.jpg")/*tpa=http://www.baidu9900.com/images/list/wd-hover.jpg*/ 0 -50px no-repeat;}
+.right-close {position:absolute;left:0;top:468px;width:223px;height:20px;line-height:20px;text-align:center;}
+.right-open .login {position:absolute;left:26px;top:287px;width:178px;height:168px;}
+.login .top {height:33px;text-align:center;font:16px/33px "Microsoft Yahei";}
+.log {height:100%;overflow:hidden;position:relative;}
+.log li {position:absolute;}
+.user {left:13px;top:7px;line-height:20px;}
+.psw {left:13px;top:42px;line-height:20px;}
+.log-btn {width:141px;height:32px;left:19px;top:97px;background:url("../images/list/log-btn-off.jpg")/*tpa=http://www.baidu9900.com/images/list/log-btn-off.jpg*/ no-repeat;}
+.log-btn .block-a:hover {background:url("../images/list/log-btn-on.jpg")/*tpa=http://www.baidu9900.com/images/list/log-btn-on.jpg*/ no-repeat;}
+.get-psw {left:104px;top:75px;}
+.remember {left:16px;top:75px;}
+#user, #pass {width:147px;height:25px;line-height:25px;padding:0 3px;border:none;border-radius:2px;box-shadow:1px 2px 3px #756C5D inset;background:#F2E6CE;color:#261406;}
+.loged {padding:0 5px;overflow:hidden;}
+.loged li {height:22px;line-height:22px;color:#fde46c}
+.loged .colored {color:#fde46c;}
+.align-r {text-align:right;}
+.align-r .dl-btn {float:left;margin-top:3px;}
+.recom-last {background:#311202;box-shadow:1px 2px 3px #1b0901 inset;text-align:center;}

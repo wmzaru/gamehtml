@@ -1,0 +1,191 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    -ms-text-size-adjust: 100%; /* 2 */
+    -webkit-text-size-adjust: 100%; /* 2 */
+    font-size: 14px;
+}
+
+#denglu{
+	
+	background-image:url(./images/loginBtn.jpg)}
+
+a, a:link, a:visited,a:hover,a:active {
+    outline: 0;
+    text-decoration: none;
+}
+
+input, select, button {
+    font-family: inherit;
+    font-size: inherit;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+/*global used tag css*/
+.abs {
+    position: absolute;
+    _zoom:1;
+}
+
+.rel {
+    position: relative;
+}
+
+.hidden {
+    display: none;
+}
+
+hide {
+    visibility: hidden;
+}
+
+.block, .box {
+    display: block;
+}
+
+.inline {
+    display: inline;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+/* page style */
+.ui-container {
+    width: 634px;
+height: 446px;
+background: url(../images/bg_43.jpg);
+}
+
+.home {
+    overflow: auto;
+    _zoom: 1;
+}
+
+.home .ui-home-left {
+    float: left;
+    width: 380px;
+    height: 280px;
+}
+
+.home .ui-home-right {
+    float: right;
+    width: 220px;
+    height: 280px;
+}
+
+.home .ui-news ul {
+    margin: 0;
+    height: 128px;
+    overflow: hidden;
+}
+
+.home .ui-news ul li {
+    _zoom: 1;
+}
+.home .ui-news div.news {
+    margin: 0;
+    line-height: 22px;
+    height: 128px;
+    overflow: hidden;
+}
+.home .ui-news div.news a {
+    display: block;
+    _zoom: 1;
+}
+.home .ui-news div.news a time{display: none;}
+.home .ui-login, .home .ui-register {
+    width: 380px;
+    height: 150px;
+}
+
+.ui-login a.link-to-register {
+    top: 100px;
+    left: 250px;
+}
+
+.ui-register a.link-to-login {
+    top: 100px;
+    left: 250px;
+}
+
+/* yellow tip */
+i.ytip span.content {
+    display: none;
+}
+
+div.ytiph {
+    position: absolute;
+    padding: 5px;
+    line-height: 1.5;
+    border-radius: 3px;
+    background-color: #fffcdd;
+    border: 1px solid #ffd800;
+    color: rgb(184, 0, 0);
+    display: none;
+    font-weight: normal;
+    font-size: 12px;
+    z-index: 9;
+}
+
+div.ytiph span.yarrow_b, div.ytiph span.yarrow_a {
+    position: absolute;
+}
+
+div.ytiph span.yarrow_a {
+    border-left: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #fffcdd;
+    left: 28px;
+    top: 28px;
+    z-index: 3;
+    _display: none;
+}
+
+div.ytiph span.yarrow_b {
+    border-left: 7px solid transparent;
+    border-bottom: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-top: 7px solid #ffd800;
+    left: 26px;
+    top: 28px;
+    z-index: 2;
+    _display: none;
+}
+
+#BDPassContainer,#passLoginForm  {
+    position: absolute;
+    top: -1000px;
+    left: -1000px;
+}
+img.pass-verifyCode {
+    vertical-align: middle;
+    *vertical-align: top;
+    *margin-top: 4px;
+}
+
+span.change-verifycode {
+    display: none;
+}
+
+img.pass-verifyCode {
+    height: 22px;
+}
+.hongs {
+	color:#F00;
+	float:left;
+}
+.huangs{
+	color:#FF0
+	float:left;
+	}
+.chengs{
+	color:#F60
+	float:left;
+	}

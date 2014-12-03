@@ -1,0 +1,219 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+    margin:0;
+    font: 12px/20px Arial, Helvetica, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+    height: 100%;
+    width: 100%;
+}
+h2{font:normal 20px/30px Arial, Helvetica, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;margin:0 0 0.8em;
+}
+area{outline: none; /* for Forefox */ } 
+area{star:expression(this.onFocus=this.blur()); /* for Ie*/ } 
+a{outline: none; /* for Forefox */ } 
+a{star:expression(this.onFocus=this.blur()); /* for Ie*/ } 
+.none{display:none;}
+.block{display:block;}
+.bj_all{background:url("../images/index1/bj_all.jpg")/*tpa=http://www.baidu9900.com/images/index1/bj_all.jpg*/ no-repeat top center; height:1675px;}
+
+.box_all{width:1000px; height:auto; margin:0 auto;}
+.box_1{background:url("../images/index1/header_02.jpg")/*tpa=http://www.baidu9900.com/images/index1/header_02.jpg*/; width:1000px; height:507px; float:left;}
+
+.menu{background:url("../images/index1/menu_03.jpg")/*tpa=http://www.baidu9900.com/images/index1/menu_03.jpg*/; width:1000px; height:101px; float:left;}
+
+.menu ul{width:891px; height:45px; float:left; margin:8px 0 0 51px; display:inline;}
+
+.menu_1{background:url("../images/index1/menu_a_03.jpg")/*tpa=http://www.baidu9900.com/images/index1/menu_a_03.jpg*/;width:170px; height:45px; float:left;}
+.menu_1:hover{background:url("../images/index1/menu_b_03.jpg")/*tpa=http://www.baidu9900.com/images/index1/menu_b_03.jpg*/;}
+
+.menu_2{background:url("../images/index1/menu_a_03.jpg")/*tpa=http://www.baidu9900.com/images/index1/menu_a_03.jpg*/; background-position:-170px 0; width:134px; height:45px; float:left;}
+.menu_2:hover{background:url("../images/index1/menu_b_03.jpg")/*tpa=http://www.baidu9900.com/images/index1/menu_b_03.jpg*/;background-position:-170px 0;}
+
+.menu_3{background:url("../images/index1/menu_a_03.jpg")/*tpa=http://www.baidu9900.com/images/index1/menu_a_03.jpg*/; background-position:-304px 0; width:138px; height:45px; float:left;}
+.menu_3:hover{background:url("../images/index1/menu_b_03.jpg")/*tpa=http://www.baidu9900.com/images/index1/menu_b_03.jpg*/;background-position:-304px 0;}
+
+.menu_4{background:url("../images/index1/menu_a_03.jpg")/*tpa=http://www.baidu9900.com/images/index1/menu_a_03.jpg*/; background-position:-442px 0; width:135px; height:45px; float:left;}
+.menu_4:hover{background:url("../images/index1/menu_b_03.jpg")/*tpa=http://www.baidu9900.com/images/index1/menu_b_03.jpg*/;background-position:-442px 0;}
+
+.menu_5{background:url("../images/index1/menu_a_03.jpg")/*tpa=http://www.baidu9900.com/images/index1/menu_a_03.jpg*/; background-position:-577px 0; width:137px; height:45px; float:left;}
+.menu_5:hover{background:url("../images/index1/menu_b_03.jpg")/*tpa=http://www.baidu9900.com/images/index1/menu_b_03.jpg*/;background-position:-577px 0;}
+
+.menu_6{background:url("../images/index1/menu_a_03.jpg")/*tpa=http://www.baidu9900.com/images/index1/menu_a_03.jpg*/; background-position:-714px 0; width:177px; height:45px; float:left;}
+.menu_6:hover{background:url("../images/index1/menu_b_03.jpg")/*tpa=http://www.baidu9900.com/images/index1/menu_b_03.jpg*/;background-position:-714px 0;}
+
+
+.function{width:251px; height:249px; float:left;}
+
+.weiduan{background:url("../images/index1/function-a_03.jpg")/*tpa=http://www.baidu9900.com/images/index1/function-a_03.jpg*/; width:251px; height:118px; float:left;}
+.weiduan:hover{background:url("../images/index1/function_b_03.jpg")/*tpa=http://www.baidu9900.com/images/index1/function_b_03.jpg*/; width:251px; height:118px; float:left;}
+
+.dl{background:url("../images/index1/function-a_03.jpg")/*tpa=http://www.baidu9900.com/images/index1/function-a_03.jpg*/; background-position:0 -118px; width:251px; height:59px; float:left;}
+
+
+.left_1_1a{width:251px; height:59px; float:left;}
+.dl .loginSuccess{background:url("../images/index1/function-c.jpg")/*tpa=http://www.baidu9900.com/images/index1/function-c.jpg*/;background-position:0 -118px; width:251px; height:59px; float:left;}
+ .loginSuccess_1{text-align:center; line-height:59px; width:251px; height:59px; float:left; color:#ffffff; font-family:"寰蒋闆呴粦";}
+
+
+.xsk{background:url("../images/index1/function-a_03.jpg")/*tpa=http://www.baidu9900.com/images/index1/function-a_03.jpg*/; background-position:0 -177px; width:251px; height:72px; float:left;}
+.xsk:hover{background:url("../images/index1/function_b_03.jpg")/*tpa=http://www.baidu9900.com/images/index1/function_b_03.jpg*/;  background-position:0 -177px; width:251px; height:72px; float:left;}
+
+
+.lbt{width:352px; height:249px; float:left; overflow:hidden;}
+
+
+.new{background:url("../images/index1/new_03.jpg")/*tpa=http://www.baidu9900.com/images/index1/new_03.jpg*/; width:397px; height:249px; float:left;}
+
+
+.tab{width:397px; height:61px; float:left;}
+.tab ul li{display:inline;}
+.jieshao_2 ul li{display:inline;}
+.tab_1{background:url("../images/index1/tab_b_03.jpg")/*tpa=http://www.baidu9900.com/images/index1/tab_b_03.jpg*/; width:93px; height:61px; float:left;}
+.tab_1:hover{background:url("../images/index1/tab_b_03.jpg")/*tpa=http://www.baidu9900.com/images/index1/tab_b_03.jpg*/; width:93px; height:61px; float:left;}
+.c_1 .tab_1{background:url("../images/index1/tab_b_03.jpg")/*tpa=http://www.baidu9900.com/images/index1/tab_b_03.jpg*/; width:93px; height:61px; float:left;}
+
+.c_0 .tab_1{background:url("../images/index1/tab_a_03.jpg")/*tpa=http://www.baidu9900.com/images/index1/tab_a_03.jpg*/; width:93px; height:61px; float:left;}
+
+.tab_2{background:url("../images/index1/tab_a_03.jpg")/*tpa=http://www.baidu9900.com/images/index1/tab_a_03.jpg*/; background-position:-93px 0; width:93px; height:61px; float:left;}
+.tab_2:hover{background:url("../images/index1/tab_b_03.jpg")/*tpa=http://www.baidu9900.com/images/index1/tab_b_03.jpg*/;background-position:-93px 0; width:93px; height:61px; float:left;}
+.c_2 .tab_2{background:url("../images/index1/tab_b_03.jpg")/*tpa=http://www.baidu9900.com/images/index1/tab_b_03.jpg*/;background-position:-93px 0; width:93px; height:61px; float:left;}
+
+.tab_3{background:url("../images/index1/tab_a_03.jpg")/*tpa=http://www.baidu9900.com/images/index1/tab_a_03.jpg*/; background-position:-186px 0; width:93px; height:61px; float:left;}
+.tab_3:hover{background:url("../images/index1/tab_b_03.jpg")/*tpa=http://www.baidu9900.com/images/index1/tab_b_03.jpg*/;background-position:-186px 0; width:93px; height:61px; float:left;}
+.c_3 .tab_3{background:url("../images/index1/tab_b_03.jpg")/*tpa=http://www.baidu9900.com/images/index1/tab_b_03.jpg*/;background-position:-186px 0; width:93px; height:61px; float:left;}
+
+.tab_4{background:url("../images/index1/tab_a_03.jpg")/*tpa=http://www.baidu9900.com/images/index1/tab_a_03.jpg*/; background-position:-279px 0; width:118px; height:61px; float:left;}
+.tab_4:hover{background:url("../images/index1/tab_b_03.jpg")/*tpa=http://www.baidu9900.com/images/index1/tab_b_03.jpg*/;background-position:-279px 0; width:118px; height:61px; float:left;}
+.c_4 .tab_4{background:url("../images/index1/tab_b_03.jpg")/*tpa=http://www.baidu9900.com/images/index1/tab_b_03.jpg*/;background-position:-279px 0; width:118px; height:61px; float:left;}
+
+.toutiao{width:397px; height:30px; float:left;}
+.toutiao ul{width:290px; height:30px; float:left; margin:0 0 0 50px; display:inline;}
+.toutiao ul h2 a{font-size:15px; font-family:"寰蒋闆呴粦"; font-weight:bold; color:#ffae00;}
+
+
+.xw{width:397px; height:120px; float:left;}
+
+.xw ul{width:397px; height:125px; float:left; margin:15px 0 0 0; overflow:hidden;}
+*html .xw ul{width:397px; height:125px; float:left; margin:6px 0 0 0; overflow:hidden;}
+.xw ul li{width:397px; height:32px; float:left;}
+
+.xw ul li a{color:#808080; width:280px; height:16px; float:left; margin:0 0 0 20px; display:inline; overflow:hidden;}
+.xw ul li a:hover{color:#ffae00;}
+.xw ul li span{ color:#808080; width:80px; height:32px; float:right;}
+
+
+.box_4{width:1000px; height:354px; float:left; overflow:hidden;}
+
+.kf{background:url("../images/index1/kf_10.jpg")/*tpa=http://www.baidu9900.com/images/index1/kf_10.jpg*/; width:251px; height:354px; float:left; overflow:hidden;}
+
+.kf_2{width:251px; height:73px; float:left; overflow:hidden;}
+.kf_2 a{color:#808080; width:60px; height:50px; float:right; margin:40px 0 0 0; display:inline;}
+.kf_2 a:hover{color:#ffae00;}
+
+.kf_1{width:251px; height:281px; float:left;}
+
+.kf_1 ul{width:251px; height:230px; float:left; margin:21px 0 0 60px; display:inline; overflow:hidden;}
+.kf_1 ul li a{color:#a2a2a2; width:180px; height:51px; float:left;}
+.kf_1 ul li a:hover{color:#ffae00;}
+
+.box_4_2{width:749px; height:354px; float:left;}
+
+.banben{ width:749px; height:102px; float:left; overflow:hidden;}
+
+.zl{width:749px; height:252px; float:left; background:url("../images/index1/al_10.jpg")/*tpa=http://www.baidu9900.com/images/index1/al_10.jpg*/;}
+.zl_all{width:565px; height:140px; float:right; margin:100px 0 0 0; display:inline;}
+
+.zl_1{width:130px; height:140px; float:left;}
+.zl_1 ul li {width:140px; height:30px; float:left;}
+.zl_1 ul li a{color:#6b6b6b; margin-left:10px; display:inline;}
+.zl_1 ul li a:hover{color:#ffae00;}
+
+
+.box_5{ width:1000px; height:252px; float:left;}
+.jieshao{ width:1000px; height:252px; float:left;}
+.jieshao_1{ width:1000px; height:198px; float:left; overflow:hidden;}
+
+.jieshao_tab_1{background:url("../images/index1/jieshao_tab_b_10.jpg")/*tpa=http://www.baidu9900.com/images/index1/jieshao_tab_b_10.jpg*/; width:260px; height:54px; float:left;}
+.jieshao_tab_1:hover{ background:url("../images/index1/jieshao_tab_b_10.jpg")/*tpa=http://www.baidu9900.com/images/index1/jieshao_tab_b_10.jpg*/;width:260px; height:54px; float:left;}
+.c_1 .jieshao_tab_1{ background:url("../images/index1/jieshao_tab_b_10.jpg")/*tpa=http://www.baidu9900.com/images/index1/jieshao_tab_b_10.jpg*/;width:260px; height:54px; float:left;}
+
+.c_0 .jieshao_tab_1{background:url("../images/index1/jieshao_tab_a_10.jpg")/*tpa=http://www.baidu9900.com/images/index1/jieshao_tab_a_10.jpg*/; width:260px; height:54px; float:left;}
+
+
+.jieshao_tab_2{background:url("../images/index1/jieshao_tab_a_10.jpg")/*tpa=http://www.baidu9900.com/images/index1/jieshao_tab_a_10.jpg*/; background-position:-260px 0;width:230px; height:54px; float:left;}
+.jieshao_tab_2:hover{ background:url("../images/index1/jieshao_tab_b_10.jpg")/*tpa=http://www.baidu9900.com/images/index1/jieshao_tab_b_10.jpg*/;background-position:-260px 0;width:230px; height:54px; float:left;}
+.c_2 .jieshao_tab_2{ background:url("../images/index1/jieshao_tab_b_10.jpg")/*tpa=http://www.baidu9900.com/images/index1/jieshao_tab_b_10.jpg*/;background-position:-260px 0;width:230px; height:54px; float:left;}
+
+.jieshao_tab_3{background:url("../images/index1/jieshao_tab_a_10.jpg")/*tpa=http://www.baidu9900.com/images/index1/jieshao_tab_a_10.jpg*/; background-position:-490px 0;width:228px; height:54px; float:left;}
+.jieshao_tab_3:hover{ background:url("../images/index1/jieshao_tab_b_10.jpg")/*tpa=http://www.baidu9900.com/images/index1/jieshao_tab_b_10.jpg*/;background-position:-490px 0;width:228px; height:54px; float:left;}
+.c_3 .jieshao_tab_3{ background:url("../images/index1/jieshao_tab_b_10.jpg")/*tpa=http://www.baidu9900.com/images/index1/jieshao_tab_b_10.jpg*/;background-position:-490px 0;width:228px; height:54px; float:left;}
+
+.jieshao_tab_4{background:url("../images/index1/jieshao_tab_a_10.jpg")/*tpa=http://www.baidu9900.com/images/index1/jieshao_tab_a_10.jpg*/; background-position:-718px 0;width:282px; height:54px; float:left;}
+.jieshao_tab_4:hover{ background:url("../images/index1/jieshao_tab_b_10.jpg")/*tpa=http://www.baidu9900.com/images/index1/jieshao_tab_b_10.jpg*/;background-position:-718px 0;width:282px; height:54px; float:left;}
+.c_4 .jieshao_tab_4{ background:url("../images/index1/jieshao_tab_b_10.jpg")/*tpa=http://www.baidu9900.com/images/index1/jieshao_tab_b_10.jpg*/;background-position:-718px 0;width:282px; height:54px; float:left;}
+
+.hz{background:url("../images/index1/hz_10.jpg")/*tpa=http://www.baidu9900.com/images/index1/hz_10.jpg*/; width:1000px; height:212px; float:left; overflow:hidden;}
+
+.bq{ width:900px; height:56px; float:left; margin:20px 0 0 40px; display:inline;}
+
+
+.lb_tab{width:120px; height:10px; float:left;}
+.lb_tab ul li{width:25px; height:10px; float:left; margin-left:5px;}
+.lb_tab_1{background:url("../images/index1/lb_bt_1_10.jpg")/*tpa=http://www.baidu9900.com/images/index1/lb_bt_1_10.jpg*/; width:25px; height:10px; float:left;}
+.lb_tab_1:hover{ background:url("../images/index1/bl_bt_2_10.jpg")/*tpa=http://www.baidu9900.com/images/index1/bl_bt_2_10.jpg*/; width:25px; height:10px; float:left;}
+
+.current .lb_tab_1{ background:url("../images/index1/bl_bt_2_10.jpg")/*tpa=http://www.baidu9900.com/images/index1/bl_bt_2_10.jpg*/; width:25px; height:10px; float:left;}
+
+
+h1 {
+    font: bold 26px/39px Arial, Helvetica, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+    margin: 0 0 0.8em;
+    color: #666;
+}
+h2 {
+    font: normal 20px/30px Arial, Helvetica, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+    margin: 0 0 0.8em;
+}
+h3 {
+    font: normal 16px/24px Arial, Helvetica, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+    margin: 0 0 0.8em;
+}
+h4 {
+    font: bold 14px/21px Arial, Helvetica, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+    margin: 0 0 0.8em;
+}
+h5 {
+    font: bold 12px/18px Arial, Helvetica, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+    margin: 0 0 0.8em;
+}
+a {
+    text-decoration: none;
+    color:#0086CF;
+}
+ul{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

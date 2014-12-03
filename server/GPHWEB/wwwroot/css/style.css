@@ -1,0 +1,280 @@
+@charset "UTF-8";
+html, body, div, span, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, em, img, samp, small, strong, sub, b, i, dl, dt, dd, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {padding:0;margin:0;}
+body {font:12px/1.5 '微软雅黑',Arial,sans-serif;color:#E3E5E4;background:#B3B7BA url("../img/c_bg.jpg")/*tpa=http://www.pz1g.com/img/c_bg.jpg*/ center 40px no-repeat;}
+input, select {vertical-align:middle}
+table {font-size:12px;border-collapse:collapse;border-spacing:0;margin:0 auto !important;}
+tr, th, td {font-size:12px;}
+ol, ul {list-style:none;}
+li {list-style-type:none;vertical-align:bottom;}
+img {vertical-align:top;border:0;}
+h1, h2, h3, h4, h5, h6 {font-size:inherit;font-weight:normal;}
+a {color:#E3E5E4;text-decoration:none;outline:none;}
+input {outline:none;}
+a:hover {text-decoration:underline;}
+a, button {cursor:pointer}
+.fl {float:left;display:inline;}
+.fr {float:right;display:inline;}
+.pos-rel {position:relative;}
+.pos-abs {position:absolute;}
+.hidden {display:none;}
+.block-a{display:block;height:100%;text-indent:-9999em;}
+.clear {clear:both;}
+.clearfix {*zoom:1;}
+.clearfix:after {display:block;overflow:hidden;clear:both;height:0;visibility:hidden;content:".";}
+
+/*****************************************************/
+.headertop{width:100%;height:30px;overflow:hidden;margin:auto;background:url("../img/header-top-bg.jpg")/*tpa=http://www.pz1g.com/img/header-top-bg.jpg*/ repeat-x;font-size:12px;}
+.headertop ul{width:1000px;height:30px;overflow:hidden;margin:auto;}
+.headertop ul li{height:30px;float:left;line-height:30px;text-align:left;color:#000;}
+.headertop a{color:#000;}
+
+.header {width:1000px;height:458px;margin:0 auto;position:relative;background:url("../img/new-c_hd.jpg")/*tpa=http://www.pz1g.com/img/new-c_hd.jpg*/ no-repeat;}
+.wrap {width:1000px;margin:0 auto;position:relative;}
+
+.mod-left {width:311px;height:1092px;overflow:hidden;background:url("../img/c_left.jpg")/*tpa=http://www.pz1g.com/img/c_left.jpg*/ no-repeat;}
+.mod-right {width:679px;}
+
+.nav {height:85px;}
+.nav a {display:block;height:100%;text-align:center;line-height:85px;font-size:18px;color:#000C21;text-decoration:none;-webkit-transition:all 300ms;transition:all 300ms;}
+.nav a:hover {color:#C8593E;text-shadow:1px 3px 3px #C8593E;}
+.nav li {height:100%;float:left;display:inline;position:relative;}
+.nav h1 {height:100%;}
+.nav-1 {width:134px;}
+.nav-2 {width:125px;}
+.nav-3 {width:135px;}
+.nav-4 {width:126px;}
+.nav-5 {width:125px;}
+.nav-6 {width:125px;}
+.logo {width:230px;}
+
+.top-video {width:515px;height:253px;position:absolute;left:0;top:290px;background:url("../img/video.jpg")/*tpa=http://www.pz1g.com/img/video.jpg*/ no-repeat;}
+.play-video {width:505px;height:240px;margin:8px 0 0 5px;cursor:pointer;}
+.top-flash {width:380px;height:360px;position:absolute;left:620px;top:98px;}
+
+#side-reg {position:fixed;right:0;top:30px;z-index:10;_display:none;}
+#open-reg {position:absolute;width:51px;height:283px;background:url("../img/open-reg.jpg")/*tpa=http://www.pz1g.com/img/open-reg.jpg*/ no-repeat;right:0;top:150px;z-index:10;}
+#pop-reg {width:256px;height:543px;position:absolute;right:-256px;top:0;background:url("../img/pop-reg.jpg")/*tpa=http://www.pz1g.com/img/pop-reg.jpg*/ no-repeat;z-index: 10;}
+#close-reg {float:right;width:45px;height:45px;}
+#reg-btn {display:block;width:95px;height:34px;position:absolute;left:80px;top:195px;background:url("../img/reg-btn.jpg")/*tpa=http://www.pz1g.com/img/reg-btn.jpg*/ no-repeat;}
+#reg-user, #reg-psw, #re-reg-psw {width:142px;height:22px;padding:0 3px;line-height:22px;background:#22252A;border:1px solid #15161A;border-left-color:#495666;border-bottom-color:#495666;color:#E3E5E4;}
+#reg-frame p {margin-bottom:10px;position:relative;left:22px;top:60px;}
+#reg-frame .error {color:#F47316;text-indent:2em;}
+#reged .welcom {text-align:center;line-height:2;font-size:16px;margin-top:100px;}
+#reged .username {color:#F47316;}
+#to-game {display:block;width:95px;height:34px;margin:10px auto;background:url("../img/to-game.jpg")/*tpa=http://www.pz1g.com/img/to-game.jpg*/ no-repeat;}
+#pop-dl {position:absolute;width:107px;height:40px;left:80px;top:305px;}
+#pop-getcard {position:absolute;width:144px;height:39px;left:65px;top:558px;}
+#pop-getcard2 {position:absolute;width:200px;height:110px;left:40px;top:430px;}
+
+.start {width:260px;height:105px;margin:44px 0 20px 24px;}
+.start:hover {position:relative;left:1px;}
+.dl-pay {width:252px;height:69px;margin:0 auto 14px;background:url("../img/dl-pay.jpg")/*tpa=http://www.pz1g.com/img/dl-pay.jpg*/ no-repeat;}
+.dl {float:left;width:126px;height:100%;}
+.pay {float:right;width:126px;height:100%;}
+
+#loginframe {height:169px;margin-top:10px;overflow:hidden;}
+.log {height:100%;overflow:hidden;position:relative;}
+.log li {position:absolute;}
+.user {left:47px;top:15px;line-height:20px;}
+.psw {left:47px;top:45px;line-height:20px;}
+.log-btn {width:221px;height:41px;left:45px;top:115px;background:url("../img/log-btn.jpg")/*tpa=http://www.pz1g.com/img/log-btn.jpg*/ no-repeat;}
+.get-psw {left:134px;top:82px;background:url("../img/psw.png")/*tpa=http://www.pz1g.com/img/psw.png*/ left center no-repeat;padding-left:15px;}
+.remember {left:43px;top:82px;}
+#login_account, #password {width:175px;height:20px;line-height:20px;padding:0 3px;border:1px solid #C8C7C3;background:#ADB1B4;color:#565857;}
+
+.loged {padding:10px 30px 0;}
+.loged li {height:25px;line-height:25px;}
+.loged .colored {color:#f47316;}
+.align-r {text-align:right;}
+
+.server-list-wrap {height:600px;overflow:hidden;margin-top:45px;}
+.quick-ingame {height:24px;line-height:24px;text-align:center;}
+.quick-enter-click {display:inline-block;width:89px;height:24px;text-indent:-9999em;background:url("../img/ingame-btn.jpg")/*tpa=http://www.pz1g.com/img/ingame-btn.jpg*/ no-repeat;}
+.quick-enter-input {width:40px;text-align:center;background:#ADB1B4;border:none;}
+.server-list {width:190px;height:100px;margin:10px auto;overflow:hidden;text-align:center;}
+.server-list li {height:25px;line-height:25px;background:url("../img/icon.jpg")/*tpa=http://www.pz1g.com/img/icon.jpg*/ left center no-repeat;}
+.server-tip-1 {color:#f47316;}
+.server-tip-2 {color:#E10100;}
+.server-more {display:block;width:188px;height:32px;margin:10px auto 0;background:url("../img/spr.jpg")/*tpa=http://www.pz1g.com/img/spr.jpg*/ 0 0 no-repeat;}
+.server-more:hover {background:url("../img/spr.jpg")/*tpa=http://www.pz1g.com/img/spr.jpg*/ -188px 0 no-repeat;}
+
+.small-pic-1 a {display:block;width:232px;height:77px;margin:15px auto 0;border:4px solid #181F27;}
+.small-pic-1 img {display:block;width:100%;height:100%;}
+
+.service {height:200px;}
+.service p {position:relative;height:29px;line-height:29px;margin-bottom:2px;left:75px;top:50px;}
+.help-ol {display:inline-block;width:93px;height:29px;background:url("../img/service-btn.jpg")/*tpa=http://www.pz1g.com/img/service-btn.jpg*/ no-repeat;text-indent:-9999em;}
+
+.media {height:320px;overflow:hidden;margin-top:45px;}
+.media-scroll {width:150px;height:320px;overflow:hidden;margin:0 auto;}
+.media-scroll li {width:150px;height:50px;margin-bottom:10px;}
+
+.figure-show {height:105px;margin-top:39px;position:relative;z-index:9;}
+.figure-more {position:absolute;width:35px;height:110px;left:0;top:0;}
+.scroll-figure-wrap  {width:550px;height:108px;position:relative;left:90px;top:0;}
+.scroll-figure {width:550px;height:108px;overflow:hidden;}
+.scroll-figure li {width:90px;height:108px;float:left;display:inline;margin-right:20px;}
+.scroll-figure a {display:block;position:relative;}
+.scroll-figure a:hover {text-decoration:none;}
+.scroll-figure img {width:90px;height:80px;}
+.scroll-figure .figure-name {display:block;height:28px;line-height:28px;font-size:16px;color:#fff180;text-align:center;background:url("../img/figure-tag.jpg")/*tpa=http://www.pz1g.com/img/figure-tag.jpg*/ no-repeat;}
+
+.scroll-figure .figure-1 {}
+.figure-tip {position:absolute;width:508px;padding:10px;border:1px solid #000;background:#4C4C4C;left:0;top:110px;z-index:10;opacity:0.9;filter:alpha(opacity=90);border-radius:0 15px 0 15px;display:none;line-height:2;}
+.figure-tip p {background-image:url("../img/stars.png")/*tpa=http://www.pz1g.com/img/stars.png*/;background-repeat:no-repeat;}
+.figure-tip .star1 {background-position:60px 6px;}
+.figure-tip .star2 {background-position:60px -15px;}
+.figure-tip .star3 {background-position:60px -36px;}
+.figure-tip .star4 {background-position:60px -57px;}
+.figure-tip .star5 {background-position:60px -78px;}
+
+.figure-tip .color-1 {color:#FFDF2D;}
+.figure-tip .color-2 {color:#F37417;}
+#prev, #next {position:absolute;width:24px;height:25px;top:35px;background-image:url("../img/arrow.png")/*tpa=http://www.pz1g.com/img/arrow.png*/;background-repeat:no-repeat;}
+#prev {background-position:0 0;left:-35px;}
+#next {background-position:-24px 0;left:550px;}
+
+.kv{
+	width:406px;
+	height:246px;
+	position:absolute;
+	border:1px solid #000;
+	left:0;
+	top:167px;
+	overflow:hidden;
+	z-index:1;
+}
+#kvContainer {width:406px;height:246px;position:relative;clear:both;}
+#kvContainer li {overflow:hidden;width:406px;height:246px;}
+#kvContainer li img {width:406px;height:246px;}
+#kvNumID { position:absolute;bottom:5px;right:5px;}
+#kvNumID li {list-style:none;float:left;width:19px;height:19px;background:url("../img/kv-btn.png")/*tpa=http://www.pz1g.com/img/kv-btn.png*/ 0 0 no-repeat;color:#fff;text-align:center;line-height:19px;cursor:pointer;margin-right:4px;overflow:hidden;}
+#kvNumID li:hover, #kvNumID li.active {background:url("../img/kv-btn.png")/*tpa=http://www.pz1g.com/img/kv-btn.png*/ -30px 0 no-repeat;}
+
+.news {width:408px;height:265px;overflow:hidden;position:absolute;left:0;top:419px;}
+.news-more {position:absolute;width:51px;height:18px;right:19px;top:8px;}
+.tab-nav {height:31px;border-bottom:1px solid #4C5059;margin:0 10px;padding-top:40px;}
+.tab-nav li {width:72px;height:100%;float:left;display:inline;text-align:center;line-height:31px;font-size:15px;color:#fff;cursor:pointer;background-image:url("../img/tab-bg.jpg")/*tpa=http://www.pz1g.com/img/tab-bg.jpg*/;background-repeat:no-repeat;background-position:0 31px;-webkit-transition:all 200ms;transition:all 200ms;}
+.news-nav li {margin-right:7px;}
+#gonglue {margin-right:0;}
+.tab-nav .on {background-position:0 0;color:#EADA9C;}
+.news-list-wrap {margin:0 10px;}
+.headline {height:30px;text-align:center;line-height:30px;border-bottom:1px solid #5D616A;overflow:hidden;}
+.headline-title {font-size:14px;color:#F47317;}
+.news-list {height:154px;overflow:hidden;margin:2px 10px 0;}
+.news-list li {height:20px;line-height:20px;margin-bottom:2px;}
+.news-date {float:right;color:#9B9CA0;}
+.news-cat {display:inline-block;width:47px;height:20px;text-align:center;line-height:20px;color:#E3E3E3;margin-right:4px;}
+.cat-xinwen {background:#410403;}
+.cat-huodong {background:#5A2400;}
+.cat-meiti {background:#1A1D22;}
+.cat-kaifu {background:#410403;}
+
+.jobs {width:408px;height:238px;overflow:hidden;position:absolute;left:0;top:684px;}
+.jobs-more {position:absolute;width:51px;height:18px;right:9px;top:10px;}
+.jobs-wrap {height:158px;overflow:hidden;position:relative;}
+.jobs-1 {height:100%;background:url("../img/zy-1.jpg")/*tpa=http://www.pz1g.com/img/zy-1.jpg*/ left center no-repeat;}
+.jobs-2 {height:100%;background:url("../img/zy-2.jpg")/*tpa=http://www.pz1g.com/img/zy-2.jpg*/ left center no-repeat;}
+.jobs-3 {height:100%;background:url("../img/zy-3.jpg")/*tpa=http://www.pz1g.com/img/zy-3.jpg*/ left center no-repeat;}
+.jobs-4 {height:100%;background:url("../img/zy-4.jpg")/*tpa=http://www.pz1g.com/img/zy-4.jpg*/ left center no-repeat;}
+.jobs-wrap p {position:absolute;}
+.jobs-wrap .star1 {background-position:60px 3px;}
+.jobs-wrap .star2 {background-position:60px -18px;}
+.jobs-wrap .star3 {background-position:60px -39px;}
+.job-detail-1 {left:185px;top:15px;}
+.job-detail-2 {left:180px;top:54px;width:215px;background-image:url("../img/stars.png")/*tpa=http://www.pz1g.com/img/stars.png*/;background-repeat:no-repeat;}
+.job-detail-3 {left:180px;top:80px;}
+.job-detail-4 {width:270px;left:125px;top:105px;color:#898C93;}
+
+.ziliao {width:260px;height:243px;overflow:hidden;right:0;top:159px;}
+.ziliao-more {position:absolute;width:51px;height:18px;right:9px;top:11px;}
+.ziliao-nav {height:56px;padding-top:48px;background:url("../img/ziliao-nav-off.jpg")/*tpa=http://www.pz1g.com/img/ziliao-nav-off.jpg*/ 0 48px no-repeat;}
+.ziliao-nav a {display:block;height:100%;}
+.ziliao-nav li {width:61px;height:56px;float:left;display:inline;margin-right:4px;}
+.ziliao-nav .ziliao-nav-2 {margin-right:3px;}
+.ziliao-nav .ziliao-nav-4 {margin-right:0;}
+.on .ziliao-1 {background:url("../img/ziliao-nav-on.jpg")/*tpa=http://www.pz1g.com/img/ziliao-nav-on.jpg*/ 0 0 no-repeat;}
+.on .ziliao-2 {background:url("../img/ziliao-nav-on.jpg")/*tpa=http://www.pz1g.com/img/ziliao-nav-on.jpg*/ -65px 0 no-repeat;}
+.on .ziliao-3 {background:url("../img/ziliao-nav-on.jpg")/*tpa=http://www.pz1g.com/img/ziliao-nav-on.jpg*/ -129px 0 no-repeat;}
+.on .ziliao-4 {background:url("../img/ziliao-nav-on.jpg")/*tpa=http://www.pz1g.com/img/ziliao-nav-on.jpg*/ -194px 0 no-repeat;}
+.ziliao-wrap {margin:5px 0 0 5px;}
+.ziliao-wrap li {width:85px;height:25px;text-align:center;line-height:25px;float:left;background:url("../img/icon.jpg")/*tpa=http://www.pz1g.com/img/icon.jpg*/ left center no-repeat;}
+
+.small-pic-2 {width:240px;height:283px;overflow:hidden;right:12px;top:402px;}
+.small-pic-2 a {display:block;width:232px;height:77px;margin-bottom:5px;border:4px solid #181F27;}
+.small-pic-2 img {display:block;width:100%;height:100%;}
+
+.jietu {
+	width:260px;
+	height:238px;
+	overflow:hidden;
+	right:2px;
+	top:452px;
+}
+.jietu-more {position:absolute;width:51px;height:18px;right:8px;top:9px;}
+.jietu-nav li {margin-right:12px;}
+.jietu-nav .jietu-nav-3 {margin-right:0;}
+.jietu-wrap {width:240px;height:130px;margin:15px auto 0;border:4px solid #0B0205;}
+.jietu-wrap a, .jietu-wrap img {display:block;width:100%;height:100%;}
+
+.links {width:679px;height:120px;overflow:hidden;left:0;top:960px;}
+.links a {line-height:2;padding:0 5px;white-space:nowrap;}
+
+.footer-words {
+	width:100%;
+	height:181px;
+	line-height:50px;
+	text-align:center;
+	margin-top:15px;
+	font-size:14px;
+	color:#30343F;
+}
+.footer-words a {color:#30343F;}
+
+/*内页*/
+.mod-main {width:689px;position:relative;background:url("../img/c_bg-repeat.jpg")/*tpa=http://www.pz1g.com/img/c_bg-repeat.jpg*/ repeat-y;}
+.mod-main-inner {padding-top:40px;background:url("../img/c_bd.jpg")/*tpa=http://www.pz1g.com/img/c_bd.jpg*/ top center no-repeat;}
+.article-top {height:44px;line-height:44px;padding:0 10px 0 40px;}
+.article-top span {font-size:18px;float:left;}
+.bread-nav {float:right;}
+#list-nav-wrap {height:31px;margin:20px 10px;}
+#list-nav {height:31px;border-bottom:1px solid #4C5059;}
+#list-nav li {width:72px;height:31px;float:left;line-height:31px;display:inline;margin-right:10px;}
+#list-nav a {display:block;height:100%;text-align:center;color:#F2E2DD;font-size:16px;background-image:url("../img/tab-bg2.jpg")/*tpa=http://www.pz1g.com/img/tab-bg2.jpg*/;background-position:0 31px;background-repeat:no-repeat;text-decoration:none;-webkit-transition:all 200ms;transition:all 200ms;}
+#list-nav .on, #list-nav a:hover {background-position:0 0;color:#EADA9C;}
+#pic-nav a {font-size:14px;}
+
+.cat-hd {position:absolute;left:0;top:-60px;}
+
+.article-main {min-height:887px;*zoom:1;_height:887px;}
+.article-main-inner {padding:0 15px;}
+.article-ft {height:50px;background:url("../img/c_ft.jpg")/*tpa=http://www.pz1g.com/img/c_ft.jpg*/ no-repeat;}
+.article-title {height:36px;line-height:36px;text-align:center;font-size:20px;}
+.article-title h1 {font-size:20px;}
+.article-detail {height:25px;line-height:25px;border-bottom:1px dotted #E3E5E4;text-align:right;}
+#bdshare {line-height:16px;padding:0 !important;}
+.article-content {margin-top:10px;line-height:24px;text-align:left;font-size:14px;}
+.article-content a {font-size:14px;}
+
+.article-main li,.article-relation dd{height:27px;padding-left:8px;line-height:27px;/* border-bottom:1px dotted #484850; */}
+.article-main li span,.article-relation dd span{float:right;}
+.article-relation{overflow:hidden;line-height:24px;}
+.article-relation dt{height:30px;margin-bottom:10px;padding:0 0 0 18px;line-height:30px;border-bottom:1px solid #D29883;color:#5C442A;font-weight:bold;}
+.article-relation dd{width:270px;display:inline;float:left;margin:0 5px;overflow:hidden;}
+
+/*列表页*/
+#article-list a {font-size:14px;}
+#article-list li {height:30px;line-height:30px;padding-left:15px;margin-right:10px;}
+#article-list span {float:right;}
+
+#jietu-list-wrap {padding-top:15px;}
+.jietu-list {width:150px;height:150px;overflow:hidden;float:left;display:inline;margin:0 0 15px 52px;text-align:center;}
+.jietu-list .figure-title {line-height:2;}
+.jietu-list a {display:block;height:150px;}
+.jietu-list img {display:block;width:100%;height:120px;}
+
+#pageNum {height:50px;margin:20px auto 0;padding-top:20px;text-align:center;}
+#pageNum span {display:inline;}
+#pageNum a {margin:3px;padding:5px 5px 3px;line-height:26px;background:#444B5B;color:#F2E2DD;}
+#pageNum a:hover {text-decoration:none;background:#65768A;}
+body div#footer_b {margin:auto;}
